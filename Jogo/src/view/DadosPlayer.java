@@ -18,7 +18,7 @@ public class DadosPlayer extends JFrame {
 	
 	public DadosPlayer(JFrame frame, Player player) {
 		
-        setSize(70, 70);
+        setSize(70, 80);
         setUndecorated(true);
         setLocationRelativeTo(frame);
         
@@ -27,9 +27,10 @@ public class DadosPlayer extends JFrame {
         add(pane, BorderLayout.CENTER);
         pane.setEditable(false);
         
+        pane.setBackground(Color.GRAY);
 
-        pane.setText(player.getVida()+ "\n" +
-        			 player.getXp() + "\n"  +
+        pane.setText(player.getVida()+ "\n" + "\n" +
+        			 player.getXp() + "\n"  + "\n" +
         			 (player.getLevel()));
         
    
