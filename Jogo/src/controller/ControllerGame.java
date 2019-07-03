@@ -3,29 +3,35 @@ package controller;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-
-import javax.swing.JOptionPane;
-
+import model.Player;
 import model.Sprite;
+import view.DadosPlayer;
 import view.Game;
+import view.Pause;
 
 public class ControllerGame extends KeyAdapter {
 
 	Game game;
 	Sprite personagem;
 	int up, down, left, right;
+	static int velocidade=1;
+	Player player;
+	DadosPlayer dados;
 	
-	public ControllerGame(Game game,  Sprite personagem) {
+	public ControllerGame(Game game,  Sprite personagem, Player player) {
 		this.game = game;
 		this.personagem = personagem;
+		this.player = player;
 		game.addKeyListener(new TAdapter());
 	}
-	
+
 	public class TAdapter extends KeyAdapter {
+		
 		public void keyPressed(KeyEvent e) {
+			
 			if (e.getKeyCode()==KeyEvent.VK_UP){
 				if (game.colisao(personagem.posX, personagem.posY-4)) {
-					if (game.colisao(personagem.posX+15, personagem.posY-4)){
+					if (game.colisao(personagem.posX+31, personagem.posY-4)){
 						personagem.posY -= 4;
 					}
 				}
@@ -44,13 +50,22 @@ public class ControllerGame extends KeyAdapter {
 	
 					break;
 				}
+				
+				if (velocidade == 2) {
+					if (game.colisao(personagem.posX, personagem.posY-4)) {
+						if (game.colisao(personagem.posX+31, personagem.posY-4)){
+							personagem.posY -= 4;
+						}
+					}
+				}
+				
 				if (up==3) up=0;
 				else up++;
 				
 			}
 			if (e.getKeyCode()==KeyEvent.VK_DOWN){
-				if (game.colisao(personagem.posX, personagem.posY+16)) {
-					if (game.colisao(personagem.posX+15, personagem.posY+16)){
+				if (game.colisao(personagem.posX, personagem.posY+32)) {
+					if (game.colisao(personagem.posX+31, personagem.posY+32)){
 						personagem.posY += 4;
 					}
 				}
@@ -69,13 +84,20 @@ public class ControllerGame extends KeyAdapter {
 	
 					break;
 				}
+				if (velocidade == 2) {
+					if (game.colisao(personagem.posX, personagem.posY+32)) {
+						if (game.colisao(personagem.posX+31, personagem.posY+32)){
+							personagem.posY += 4;
+						}
+					}
+				}
 				if (down==3) down=0;
 				else down++;
 				
 			}
 			if (e.getKeyCode()==KeyEvent.VK_LEFT){
 				if (game.colisao(personagem.posX-4, personagem.posY)) {
-					if (game.colisao(personagem.posX-4, personagem.posY+15)){
+					if (game.colisao(personagem.posX-4, personagem.posY+31)){
 						personagem.posX -= 4;
 					}
 				}
@@ -94,13 +116,20 @@ public class ControllerGame extends KeyAdapter {
 	
 					break;
 				}
+				if (velocidade == 2) {
+					if (game.colisao(personagem.posX-4, personagem.posY)) {
+						if (game.colisao(personagem.posX-4, personagem.posY+31)){
+							personagem.posX -= 4;
+						}
+					}
+				}
 				if (left==3) left=0;
 				else left++;
 				
 			}
 			if (e.getKeyCode()==KeyEvent.VK_RIGHT){
-				if (game.colisao(personagem.posX+16, personagem.posY)) {
-					if (game.colisao(personagem.posX+16, personagem.posY+15)){
+				if (game.colisao(personagem.posX+32, personagem.posY)) {
+					if (game.colisao(personagem.posX+32, personagem.posY+31)){
 						personagem.posX += 4;
 					}
 				}
@@ -119,17 +148,41 @@ public class ControllerGame extends KeyAdapter {
 	
 					break;
 				}
+				if (velocidade == 2) {
+					if (game.colisao(personagem.posX+32, personagem.posY)) {
+						if (game.colisao(personagem.posX+32, personagem.posY+31)){
+							personagem.posX += 4;
+						}
+					}
+				}
 				if (right==3) right=0;
 				else right++;
 			}
 			
 			if (e.getKeyCode()==KeyEvent.VK_ESCAPE) {
-				if(JOptionPane.showConfirmDialog(null, "Quer fechar o jogo?")==0) {
-					System.exit(0);
-				}
+				dados = new DadosPlayer(game, player);
+				Pause pause = new Pause(player, game, dados);
 				
+				dados.setLocation(dados.getX()-65, dados.getY()-195);
+				
+				pause.setVisible(true);
+				dados.setVisible(true);
+			
 			}
+			
 		}
 	}
+		
+	public void keyReleased(KeyEvent e) {		
+	}
+
+	public static int getVelocidade() {
+		return velocidade;
+	}
+
+	public static void setVelocidade(int velocidade) {
+		ControllerGame.velocidade = velocidade;
+	}
+
 }
 	

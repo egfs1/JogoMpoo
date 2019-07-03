@@ -17,7 +17,7 @@ public class Camada2 {
 	private final int numeroColunas = 16;
 	private final int numeroLinhas = 16;
 	private final int colunasTileSet = 10;
-	private final int tileSize = 16;
+	private final int tileSize = 32;
 
 	private int camada[][];
 	private int mapaLargura = numeroColunas * tileSize;

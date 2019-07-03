@@ -4,7 +4,6 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 
 import java.awt.Toolkit;
-
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.File;
@@ -19,16 +18,19 @@ import javax.swing.JFrame;
 
 
 import controller.ControllerGame;
+import controller.ControllerPlayer;
 import model.Camada2;
+import model.Player;
 import model.Sprite;
 
 public class Game extends JFrame implements Runnable {
-	private static final long serialVersionUID = 1L;
+//	private static final long serialVersionUID = 1L;
 	
 	Dimension screenSize= Toolkit.getDefaultToolkit().getScreenSize();
 	
 	Camada2 camada0,camada1,camada2;
 	
+	Player player;
 	public BufferedImage tela;
 	static Sprite personagem;
 	int FPS=60;
@@ -37,9 +39,9 @@ public class Game extends JFrame implements Runnable {
 	
 	int posXMatriz, posYMatriz;
 
-	public Game(){
+	public Game(Player player){
 		
-		setSize(256,256);
+		setSize(512,512);
 		setLayout(null);
 		setResizable(false);
 		setLocationRelativeTo(null);
@@ -62,10 +64,15 @@ public class Game extends JFrame implements Runnable {
 		camada1.montarMapa();
 		camada2.montarMapa();
 		
-		addKeyListener(new ControllerGame(this,personagem));
+		addKeyListener(new ControllerGame(this,personagem, player));
+		addKeyListener(new ControllerPlayer(this, personagem));
 		
 		setVisible(true);
 	
+	}
+	
+	public void exit() {
+		System.exit(0);
 	}
 	
 	public void paint(Graphics g){
@@ -81,7 +88,7 @@ public class Game extends JFrame implements Runnable {
 	}
 
 	public void run() {
-		tela = new BufferedImage(512, 512, BufferedImage.TYPE_4BYTE_ABGR);
+		tela = new BufferedImage(1024, 1024, BufferedImage.TYPE_4BYTE_ABGR);
 		while (true) {
 			try {
 				repaint();
@@ -96,8 +103,8 @@ public class Game extends JFrame implements Runnable {
 	
 	public boolean colisao(int posX,int posY) {
 		
-		posXMatriz = ((posX)/ 16);
-		posYMatriz = ((posY)/ 16);
+		posXMatriz = ((posX)/ 32);
+		posYMatriz = ((posY)/ 32);
 		
 		int[][] mtz = camada1.carregarMatriz("resources/Camada1.txt");
 		

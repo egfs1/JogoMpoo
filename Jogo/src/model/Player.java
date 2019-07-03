@@ -1,3 +1,4 @@
+
 package model;
 
 public class Player {
@@ -14,6 +15,26 @@ public class Player {
 
 	public int getVida() {
 		return vida;
+	}
+
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+	public void setVida(int vida) {
+		this.vida = vida;
+	}
+
+
+	public void setXp(int xp) {
+		this.xp = xp;
+	}
+
+
+	public void setLevel(int level) {
+		this.level = level;
 	}
 
 
