@@ -27,7 +27,10 @@ public class ControllerGame extends KeyAdapter {
 
 	public class TAdapter extends KeyAdapter {
 		
+		int lado=0;
 		public void keyPressed(KeyEvent e) {
+			
+			
 			
 			if (e.getKeyCode()==KeyEvent.VK_UP){
 				if (game.colisao(personagem.posX, personagem.posY-4)) {
@@ -37,16 +40,16 @@ public class ControllerGame extends KeyAdapter {
 				}
 				switch (up) {
 				case 0:
-					personagem.aparencia=0;
+					personagem.aparencia=0+lado;
 					break;
 				case 1:
-					personagem.aparencia=1;
+					personagem.aparencia=2+lado;
 					break;
 				case 2:
-					personagem.aparencia=2;
+					personagem.aparencia=4+lado;
 					break;
 				case 3:
-					personagem.aparencia=3;
+					personagem.aparencia=6+lado;
 	
 					break;
 				}
@@ -71,16 +74,16 @@ public class ControllerGame extends KeyAdapter {
 				}
 				switch (down) {
 				case 0:
-					personagem.aparencia=0;
+					personagem.aparencia=0+lado;
 					break;
 				case 1:
-					personagem.aparencia=1;
+					personagem.aparencia=2+lado;
 					break;
 				case 2:
-					personagem.aparencia=2;
+					personagem.aparencia=4+lado;
 					break;
 				case 3:
-					personagem.aparencia=3;
+					personagem.aparencia=6+lado;
 	
 					break;
 				}
@@ -96,6 +99,8 @@ public class ControllerGame extends KeyAdapter {
 				
 			}
 			if (e.getKeyCode()==KeyEvent.VK_LEFT){
+				lado=1;
+				
 				if (game.colisao(personagem.posX-4, personagem.posY)) {
 					if (game.colisao(personagem.posX-4, personagem.posY+31)){
 						personagem.posX -= 4;
@@ -103,16 +108,16 @@ public class ControllerGame extends KeyAdapter {
 				}
 				switch (left) {
 				case 0:
-					personagem.aparencia=0;
+					personagem.aparencia=0+lado;
 					break;
 				case 1:
-					personagem.aparencia=1;
+					personagem.aparencia=2+lado;
 					break;
 				case 2:
-					personagem.aparencia=2;
+					personagem.aparencia=4+lado;
 					break;
 				case 3:
-					personagem.aparencia=3;
+					personagem.aparencia=6+lado;
 	
 					break;
 				}
@@ -128,6 +133,7 @@ public class ControllerGame extends KeyAdapter {
 				
 			}
 			if (e.getKeyCode()==KeyEvent.VK_RIGHT){
+				lado=0;
 				if (game.colisao(personagem.posX+32, personagem.posY)) {
 					if (game.colisao(personagem.posX+32, personagem.posY+31)){
 						personagem.posX += 4;
@@ -135,16 +141,16 @@ public class ControllerGame extends KeyAdapter {
 				}
 				switch (right) {
 				case 0:
-					personagem.aparencia=0;
+					personagem.aparencia=0+lado;
 					break;
 				case 1:
-					personagem.aparencia=1;
+					personagem.aparencia=2+lado;
 					break;
 				case 2:
-					personagem.aparencia=2;
+					personagem.aparencia=4+lado;
 					break;
 				case 3:
-					personagem.aparencia=3;
+					personagem.aparencia=6+lado;
 	
 					break;
 				}

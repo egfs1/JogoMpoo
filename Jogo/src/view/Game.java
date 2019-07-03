@@ -53,7 +53,7 @@ public class Game extends JFrame implements Runnable {
 		camada2 = new Camada2("resources/Camada2.txt");
 		
 		try {
-			personagem = new Sprite(new File("src/resources/personagem.png"), 0, 4, 1, this.getWidth()/2, this.getHeight()/2);
+			personagem = new Sprite(new File("src/resources/personagemSprite.png"), 0, 4, 2, this.getWidth()/2, this.getHeight()/2);
 		}
 		catch (IOException e) {
 			e.printStackTrace();
