@@ -60,13 +60,16 @@ public class ControllerPause implements MouseListener, KeyListener{
 						dados=null;
 						pause=null;
 						System.gc();
+						return;
 					}
 					else {
 						if (arg0.getY() >= 354 && arg0.getY() <= 396) {
 							game.exit();
 						}
 					}
-				}	
+				}
+				dados.setVisible(true);  //gambiarra do caralho
+				
 			}
 		}
 
@@ -78,13 +81,14 @@ public class ControllerPause implements MouseListener, KeyListener{
 
 		@Override
 		public void keyPressed(KeyEvent arg0) {
-			if (arg0.getKeyCode()==KeyEvent.VK_ESCAPE) {
-					pause.setVisible(false);
-					dados.setVisible(false);
-					dados=null;
-					pause=null;
-					System.gc();
-			}
+//			if (arg0.getKeyCode()==KeyEvent.VK_ESCAPE) {
+//					pause.setVisible(false);
+//					dados.setVisible(false);
+//					dados=null;
+//					pause=null;
+//					System.gc();
+//					return;
+//			}
 			
 		}
 
