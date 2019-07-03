@@ -52,24 +52,29 @@ public class ControllerPause implements MouseListener, KeyListener{
 
 		public void mousePressed(MouseEvent arg0) {
 			
-			if (arg0.getClickCount()==MouseEvent.BUTTON1) {
-				if (arg0.getX()>= 136 && arg0.getX() <= 378) {
-					if (arg0.getY() >= 202 && arg0.getY() <= 244) {
-						pause.setVisible(false);
-						dados.setVisible(false);
-						dados=null;
-						pause=null;
-						System.gc();
-						return;
-					}
-					else {
-						if (arg0.getY() >= 354 && arg0.getY() <= 396) {
-							game.exit();
+			if (pause!=null && pause.isVisible()) {
+			
+				if (arg0.getClickCount()==MouseEvent.BUTTON1) {
+					if (arg0.getX()>= 136 && arg0.getX() <= 378) {
+						if (arg0.getY() >= 202 && arg0.getY() <= 244) {
+							pause.setVisible(false);
+							dados.setVisible(false);
+							dados=null;
+							pause=null;
+							System.gc();
+						}
+						else {
+							if (arg0.getY() >= 354 && arg0.getY() <= 396) {
+								game.exit();
+							}
 						}
 					}
+					
 				}
-				dados.setVisible(true);  //gambiarra do caralho
-				
+				if (dados!=null) {
+					dados.setVisible(true);  //gambiarra do caralho
+					return;
+				}
 			}
 		}
 

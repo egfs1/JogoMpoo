@@ -11,8 +11,6 @@ public class App {
 		Game game = new Game(player);
 		new Thread(game).start();
 		game.run();
-
-		
 	}
 
 }
