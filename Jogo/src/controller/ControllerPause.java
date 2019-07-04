@@ -5,26 +5,18 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-import java.awt.image.BufferedImage;
-import java.io.IOException;
-
-import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
-
-import view.DadosPlayer;
-import view.Game;
-import view.Pause;
+import view.TelaDadosPlayer;
+import view.TelaGame;
+import view.TelaPause;
 
 public class ControllerPause implements MouseListener, KeyListener{
 	
-		Game game;
-		Pause pause;
-		DadosPlayer dados;
+		TelaGame game;
+		TelaPause pause;
+		TelaDadosPlayer dados;
 	
 		
-		public ControllerPause(Game game, Pause pause, DadosPlayer dados) {
+		public ControllerPause(TelaGame game, TelaPause pause, TelaDadosPlayer dados) {
 			this.game = game;
 			this.pause = pause;
 			this.dados = dados;
@@ -65,7 +57,7 @@ public class ControllerPause implements MouseListener, KeyListener{
 						}
 						else {
 							if (arg0.getY() >= 354 && arg0.getY() <= 396) {
-								game.exit();
+								System.exit(0);
 							}
 						}
 					}

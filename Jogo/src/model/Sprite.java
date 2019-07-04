@@ -1,11 +1,23 @@
 package model;
 
+import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 
 public class Sprite{
+	
+	private Rectangle rect;
+	
+	public Rectangle getRect() {
+		return rect;
+	}
+
+	public void setRect(Rectangle rect) {
+		this.rect = rect;
+	}
+
 	public BufferedImage spriteSheet;   
 	public int width, height;
 	public int rows, columns;
@@ -25,6 +37,8 @@ public class Sprite{
 		this.columns = rows;
 		this.posX=posX;
 		this.posY=posY;
+		
+		rect = new Rectangle(posX, posY, width, height);
 
 		sprites = new BufferedImage[columns * rows];
 			for(int i = 0; i < columns; i++) {
@@ -32,5 +46,6 @@ public class Sprite{
 				sprites[(i * rows) + j] = spriteSheet.getSubimage(i * width, j * height, width, height);
 			}
 		}
+		
 	}
 }

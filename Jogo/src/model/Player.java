@@ -1,13 +1,24 @@
-
 package model;
 
-public class Player {
+public class Player{
+	
 	private String nome;
 	private int vida;
-	private int xp;
-	private int level;
+	private int dano;
 	
+	public Player(String nome) {
+		this.nome = nome;
+		vida=200;
+		dano = 10;
+
+	}
 	
+	public void atacar(Inimigo inimigo) {
+		inimigo.setVida(inimigo.getVida()-dano);
+		
+	}
+	
+
 	public String getNome() {
 		return nome;
 	}
@@ -27,33 +38,13 @@ public class Player {
 		this.vida = vida;
 	}
 
-
-	public void setXp(int xp) {
-		this.xp = xp;
+	public int getDano() {
+		return dano;
 	}
 
 
-	public void setLevel(int level) {
-		this.level = level;
-	}
-
-
-	public int getXp() {
-		return xp;
-	}
-
-
-	public int getLevel() {
-		return level;
-	}
-
-
-	public Player(String nome) {
-		this.nome = nome;
-		vida=200;
-		xp=0;
-		level=1;
-	
+	public void setDano(int dano) {
+		this.dano = dano;
 	}
 	
 }
