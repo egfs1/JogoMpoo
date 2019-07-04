@@ -27,7 +27,7 @@ public class ControllerPlayer extends KeyAdapter{
 	public class TAdapter extends KeyAdapter{
 		public void keyPressed(KeyEvent e) {
 			
-			if (e.getKeyCode()==KeyEvent.VK_UP){
+			if (e.getKeyCode()==KeyEvent.VK_W){
 				test = new Rectangle(personagem.posX, personagem.posY-4, personagem.width, personagem.height);
 				if (telagame.game.colisao(personagem.posX, personagem.posY-4) && telagame.game.colisaoInimigo(test)) {
 					if (telagame.game.colisao(personagem.posX+31, personagem.posY-4) && telagame.game.colisaoInimigo(test)){
@@ -66,7 +66,7 @@ public class ControllerPlayer extends KeyAdapter{
 				test=null;
 				
 			}
-			if (e.getKeyCode()==KeyEvent.VK_DOWN){
+			if (e.getKeyCode()==KeyEvent.VK_S){
 				test = new Rectangle(personagem.posX, personagem.posY+4, personagem.width, personagem.height);
 				if (telagame.game.colisao(personagem.posX, personagem.posY+32) && telagame.game.colisaoInimigo(test)) {
 					if (telagame.game.colisao(personagem.posX+31, personagem.posY+32) && telagame.game.colisaoInimigo(test)){
@@ -103,7 +103,7 @@ public class ControllerPlayer extends KeyAdapter{
 				test=null;
 				
 			}
-			if (e.getKeyCode()==KeyEvent.VK_LEFT){
+			if (e.getKeyCode()==KeyEvent.VK_A){
 				lado=1;
 				test = new Rectangle(personagem.posX-4, personagem.posY, personagem.width, personagem.height);
 				if (telagame.game.colisao(personagem.posX-4, personagem.posY) && telagame.game.colisaoInimigo(test)) {
@@ -141,7 +141,7 @@ public class ControllerPlayer extends KeyAdapter{
 				test=null;
 				
 			}
-			if (e.getKeyCode()==KeyEvent.VK_RIGHT){
+			if (e.getKeyCode()==KeyEvent.VK_D){
 				lado=0;
 				test = new Rectangle(personagem.posX+4, personagem.posY, personagem.width, personagem.height);
 				if (telagame.game.colisao(personagem.posX+32, personagem.posY) && telagame.game.colisaoInimigo(test)) {

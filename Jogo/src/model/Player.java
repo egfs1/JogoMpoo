@@ -5,7 +5,8 @@ public class Player{
 	private String nome;
 	private int vida;
 	private int dano;
-	
+	private Sprite sprite;
+
 	public Player(String nome) {
 		this.nome = nome;
 		vida=200;
@@ -47,4 +48,11 @@ public class Player{
 		this.dano = dano;
 	}
 	
+	public Sprite getSprite() {
+		return sprite;
+	}
+
+	public void setSprite(Sprite sprite) {
+		this.sprite = sprite;
+	}
 }

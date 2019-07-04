@@ -3,7 +3,6 @@ package view;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -28,14 +27,12 @@ public class TelaGame extends JFrame implements Runnable {
 	public Camada2 camada0, camada1, camada2;
 	
 	public Player player;
-	public Rectangle playerRect, inimigo1Rect, inimigo2Rect, inimigo3Rect;
 	public Inimigo inimigo1, inimigo2, inimigo3;
 	public BufferedImage tela;
 	public static Sprite personagem, inimigo1Sprite, inimigo2Sprite, inimigo3Sprite;
 	public static ArrayList<Inimigo>inimigos = new ArrayList<>();
-	public static ArrayList<Sprite>players = new ArrayList<>();
+	public static ArrayList<Player>players = new ArrayList<>();
 	public int FPS=60;
-	public int up, down, right, left, k;
 	
 	public int posXMatriz, posYMatriz;
 	public Game game;
@@ -66,11 +63,13 @@ public class TelaGame extends JFrame implements Runnable {
 			System.out.println("Não foi possível carregar a Sprite");
 		}
 		
+		player.setSprite(personagem);
+		
 		inimigo1 = new Inimigo(50, 5, inimigo1Sprite);
 		inimigo2 = new Inimigo(100, 15, inimigo2Sprite);
 		inimigo3 = new Inimigo(150, 25, inimigo3Sprite);
 		
-		players.add(personagem);
+		players.add(player);
 		inimigos.add(inimigo1);
 		inimigos.add(inimigo2);
 		inimigos.add(inimigo3);

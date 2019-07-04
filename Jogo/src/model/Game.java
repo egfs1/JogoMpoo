@@ -67,8 +67,8 @@ public class Game {
 		
 		public boolean colisaoPlayer(Rectangle rect) {
 			try {
-					for (Sprite p: TelaGame.players) {
-						if (rect.intersects(p.getRect())) {
+					for (Player p: TelaGame.players) {
+						if (rect.intersects(p.getSprite().getRect())) {
 							return false;
 						}
 				}
@@ -78,6 +78,20 @@ public class Game {
 				return true;
 			}
 		} 
+		
+		public Player retornarPlayer(Rectangle rect) {
+			try {
+					for (Player p: TelaGame.players) {
+						if (rect.intersects(p.getSprite().getRect())) {
+							return p;
+						}
+				}
+				return null;
+			}
+			catch (NullPointerException e) {
+				return null;
+			}
+		}
 			
 		
 		public void atacarInimigo(Player player, Rectangle rect) {
