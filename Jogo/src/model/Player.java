@@ -5,7 +5,7 @@ public class Player{
 	private String nome;
 	private int vida;
 	private int dano;
-	private Sprite sprite;
+	private Sprite sprite=null;
 
 	public Player(String nome) {
 		this.nome = nome;
@@ -36,7 +36,9 @@ public class Player{
 
 
 	public void setVida(int vida) {
-		this.vida = vida;
+		if(vida <=200)
+			this.vida = vida;
+		else this.vida=200;
 	}
 
 	public int getDano() {

@@ -3,6 +3,7 @@ package view;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -27,6 +28,7 @@ public class TelaGame extends JFrame implements Runnable {
 	public Camada2 camada0, camada1, camada2;
 	
 	public Player player;
+	public Rectangle playerRect, inimigo1Rect, inimigo2Rect, inimigo3Rect;
 	public Inimigo inimigo1, inimigo2, inimigo3;
 	public BufferedImage tela;
 	public static Sprite personagem, inimigo1Sprite, inimigo2Sprite, inimigo3Sprite;
@@ -38,6 +40,7 @@ public class TelaGame extends JFrame implements Runnable {
 	public Game game;
 
 	public TelaGame(Player player){
+		this.player = player;
 		
 		setSize(512,512);
 		setLayout(null);
@@ -99,22 +102,24 @@ public class TelaGame extends JFrame implements Runnable {
 
 		tela.getGraphics().drawImage(camada1.getMapa(), 0, 0, this);
 		
-		if (personagem!=null)
-		tela.getGraphics().drawImage(personagem.sprites[personagem.aparencia], personagem.posX, personagem.posY, null);
-		
+		if (player.getSprite()!=null) {
+		tela.getGraphics().drawImage(player.getSprite().sprites[player.getSprite().aparencia], player.getSprite().posX, player.getSprite().posY, null);
+		tela.getGraphics().fillRect(player.getSprite().posX+8, player.getSprite().posY-5,player.getVida()/8 , 3);
+		}	
+	
 		if (inimigo1.getSprite()!=null) {
 		tela.getGraphics().drawImage(inimigo1.getSprite().sprites[inimigo1Sprite.aparencia], inimigo1Sprite.posX, inimigo1Sprite.posY, null);
-		tela.getGraphics().fillRect(inimigo1.getSprite().posX+8, inimigo1.getSprite().posY-5, inimigo1.getVida(), 3);
+		tela.getGraphics().fillRect(inimigo1.getSprite().posX+8, inimigo1.getSprite().posY-5, inimigo1.getVida()/2, 3);
 	
 		}
 		if (inimigo2.getSprite() != null) {
 			tela.getGraphics().drawImage(inimigo2.getSprite().sprites[inimigo2Sprite.aparencia], inimigo2Sprite.posX, inimigo2Sprite.posY, null);
-			tela.getGraphics().fillRect(inimigo2.getSprite().posX+8, inimigo2.getSprite().posY-5, inimigo2.getVida()/2, 3);
+			tela.getGraphics().fillRect(inimigo2.getSprite().posX+8, inimigo2.getSprite().posY-5, inimigo2.getVida()/4, 3);
 		}
 		
 		if (inimigo3.getSprite() != null) {
 			tela.getGraphics().drawImage(inimigo3.getSprite().sprites[inimigo3Sprite.aparencia], inimigo3Sprite.posX, inimigo3Sprite.posY, null);
-			tela.getGraphics().fillRect(inimigo3.getSprite().posX+8, inimigo3.getSprite().posY-5, inimigo3.getVida()/3, 3);
+			tela.getGraphics().fillRect(inimigo3.getSprite().posX+8, inimigo3.getSprite().posY-5, inimigo3.getVida()/6, 3);
 		}
 		
 		tela.getGraphics().drawImage(camada2.getMapa(), 0, 0, this);
@@ -125,12 +130,21 @@ public class TelaGame extends JFrame implements Runnable {
 
 	public void run() {
 		tela = new BufferedImage(1024, 1024, BufferedImage.TYPE_4BYTE_ABGR);
+		int i=FPS*5;
 		while (true) {
+			
 			try {
 				repaint();
+				if (i==1)
+					player.setVida(player.getVida()+20);
 				
 				Thread.sleep(1000/FPS);
-
+				
+				
+				i--;
+				if (i==0)
+					i=FPS*5;
+				
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}

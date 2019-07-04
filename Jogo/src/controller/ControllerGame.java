@@ -5,7 +5,6 @@ import java.awt.event.KeyEvent;
 
 import model.Player;
 import model.Sprite;
-import view.TelaDadosPlayer;
 import view.TelaGame;
 import view.TelaPause;
 
@@ -15,7 +14,6 @@ public class ControllerGame extends KeyAdapter {
 	Sprite personagem;
 	int up, down, left, right;
 	Player player;
-	TelaDadosPlayer dados;
 	
 	public ControllerGame(TelaGame game,Sprite personagem, Player player) {
 		this.game = game;
@@ -30,14 +28,10 @@ public class ControllerGame extends KeyAdapter {
 			
 			
 			if (e.getKeyCode()==KeyEvent.VK_ESCAPE) {
-				dados = new TelaDadosPlayer(game, player);
-				TelaPause pause = new TelaPause(player, game, dados);
-				
-				dados.setLocation(dados.getX()-65, dados.getY()-195);
+				TelaPause pause = new TelaPause(player, game);
+				new Thread(pause).start();
 				
 				pause.setVisible(true);
-				dados.setVisible(true);
-			
 			}
 			
 		}
