@@ -1,84 +1,56 @@
 package controller;
 
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import view.TelaGame;
+
+import model.Player;
+import view.TelaInventario;
 import view.TelaPause;
 
-public class ControllerPause implements MouseListener, KeyListener{
-	
-		TelaGame game;
+public class ControllerPause implements KeyListener, ActionListener{
+		
+		Player player;
 		TelaPause pause;
 	
 		
-		public ControllerPause(TelaGame game, TelaPause pause) {
-			this.game = game;
+		public ControllerPause(TelaPause pause, Player player) {
 			this.pause = pause;
+			this.player = player;				
 			
+			this.pause.getContinueButton().addActionListener(new ActionListener() {
+				
+				public void actionPerformed(ActionEvent e) {
+					pause.dispose();
+				}
+			});
 			
-
-			game.addMouseListener(this);
-			game.addKeyListener(this);
-		}
-
-		@Override
-		public void mouseClicked(MouseEvent e) {
+			this.pause.getSairButton().addActionListener(new ActionListener() {
+				
+				public void actionPerformed(ActionEvent e) {
+					System.exit(0);
+				}
+			});
 			
-		}
-
-		@Override
-		public void mouseEntered(MouseEvent e) {
-			// TODO Auto-generated method stub
-			
-		}
-
-		@Override
-		public void mouseExited(MouseEvent e) {
-			// TODO Auto-generated method stub
-			
-		}
-
-		public void mousePressed(MouseEvent arg0) {
-			
-			if (pause!=null && pause.isVisible()) {
-			
-				if (arg0.getClickCount()==MouseEvent.BUTTON1) {
-					if (arg0.getX()>= 136 && arg0.getX() <= 378) {
-						if (arg0.getY() >= 202 && arg0.getY() <= 244) {
-							pause.setVisible(false);
-							pause=null;
-							System.gc();
-						}
-						else {
-							if (arg0.getY() >= 354 && arg0.getY() <= 396) {
-								System.exit(0);
-							}
-						}
-					}
+			this.pause.getInvButton().addActionListener(new ActionListener() {
+				
+				@Override
+				public void actionPerformed(ActionEvent arg0) {
+					TelaInventario ti = new TelaInventario(player);
 					
-				}	
-			}
-		}
-
-		@Override
-		public void mouseReleased(MouseEvent e) {
-			// TODO Auto-generated method stub
+					
+				}
+			});
 			
 		}
-
-		@Override
+		
+		
 		public void keyPressed(KeyEvent arg0) {
-//			if (arg0.getKeyCode()==KeyEvent.VK_ESCAPE) {
-//					pause.setVisible(false);
-//					dados.setVisible(false);
-//					dados=null;
-//					pause=null;
-//					System.gc();
-//					return;
-//			}
+			if (arg0.getKeyCode()==KeyEvent.VK_ESCAPE) {
+					pause.setVisible(false);
+			}
 			
 		}
 
@@ -91,6 +63,10 @@ public class ControllerPause implements MouseListener, KeyListener{
 		@Override
 		public void keyTyped(KeyEvent arg0) {
 			// TODO Auto-generated method stub
+			
+		}
+
+		public void actionPerformed(ActionEvent e) {
 			
 		}
 

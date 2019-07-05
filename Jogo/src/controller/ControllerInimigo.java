@@ -35,25 +35,31 @@ public class ControllerInimigo implements Runnable {
 			Rectangle testLeft = new Rectangle(inimigo.getSprite().posX-31, inimigo.getSprite().posY-31, 32, inimigo.getSprite().height+64);
 			Rectangle testRight = new Rectangle(inimigo.getSprite().posX+31, inimigo.getSprite().posY-31, 32, inimigo.getSprite().height+64);
 			
-			if (pRect.intersects(testUp))
+			if (pRect.intersects(testUp)) {
 				if (moverCima(inimigo)==false) {
 					inimigo.atacar(p);
+					telagame.game.verificarVidaPlayer(p);
+						
+					}
 				}
 			if (pRect.intersects(testDown))
 				if (moverBaixo(inimigo)==false) {
 
 					inimigo.atacar(p);
+					telagame.game.verificarVidaPlayer(p);
 
 				}
 			if (pRect.intersects(testLeft))
 				if (moverEsquerda(inimigo)==false) {
 
 					inimigo.atacar(p);
+					telagame.game.verificarVidaPlayer(p);
 
 				}
 			if (pRect.intersects(testRight))
 				if (moverDireita(inimigo)==false) {
 					inimigo.atacar(p);
+					telagame.game.verificarVidaPlayer(p);
 
 				}
 					

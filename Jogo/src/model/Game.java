@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 import view.TelaGame;
+import view.TelaGameOver;
 
 public class Game {
 	
@@ -93,6 +94,24 @@ public class Game {
 			}
 		}
 			
+		public void verificarVidaPlayer(Player player) {
+			try {
+				if (player.getVida() <= 0) {
+						TelaGameOver tgo = new TelaGameOver(telaGame, player);
+						
+						player.setSprite(null);
+						TelaGame.players.remove(player);
+						
+						tgo.setVisible(true);
+						telaGame.dispose();
+				}
+					
+			}
+			
+				
+			catch (NullPointerException e){}
+			}
+		
 		
 		public void atacarInimigo(Player player, Rectangle rect) {
 			

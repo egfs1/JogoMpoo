@@ -28,10 +28,13 @@ public class ControllerGame extends KeyAdapter {
 			
 			
 			if (e.getKeyCode()==KeyEvent.VK_ESCAPE) {
-				TelaPause pause = new TelaPause(player, game);
+				
+				TelaPause pause = new TelaPause(player);
+				pause.setVisible(true);
+				
+//				game.pauseThread();
 				new Thread(pause).start();
 				
-				pause.setVisible(true);
 			}
 			
 		}

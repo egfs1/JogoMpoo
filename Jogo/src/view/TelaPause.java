@@ -1,84 +1,132 @@
 package view;
 
+import java.awt.Color;
+import java.awt.Font;
 import java.awt.Graphics;
-import java.awt.Image;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
+import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
+import javax.swing.JPanel;
 
 import controller.ControllerPause;
 import model.Player;
 
 public class TelaPause extends JFrame implements Runnable {
 	
+	
 	private static final long serialVersionUID = 1L;
-	BufferedImage img, tela;
-	Image imageFundo, dadosImg;
-	TelaGame game;
+	JButton invButton, continueButton, sairButton;
+	JPanel panel;
+	
+	BufferedImage img, tela,imgPersonagem;
 	Player player;
 	int vida=200;
-	int FPS=10;
+	int FPS=5;
 	
-	
-	JLabel dadosLabel;
-	
-	public TelaPause(Player player, TelaGame game){
+	public TelaPause(Player player){
 		this.player = player;
-		this.game = game;
 		
 		setSize(512,512);
-//		setLayout(null);
+		setLayout(null);
 		setResizable(false);
 		setLocationRelativeTo(null);
 		setUndecorated(true);
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		
 		
 		try {
-			img = ImageIO.read(new File("src/resources/imgPause2.png"));
+			imgPersonagem = ImageIO.read(new File("src/resources/imgPersonagem2.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		
-//		dadosLabel = new JLabel();
-//		dadosLabel.setFont(new Font(player.getVida() + "/" + vida, Font.BOLD, 10));
-//		dadosLabel.setBackground(Color.green);
-//		dadosImg = dadosLabel.createImage(70, 70);
+		panel = new JPanel();
+		panel.setLayout(null);
+		panel.setSize(512,512);
+		panel.setBackground(Color.GRAY);
 		
-		addMouseListener(new ControllerPause(game, this));
-		setVisible(true);
+		
+		invButton= new JButton("Inventário");
+		sairButton= new JButton("Sair");
+		continueButton= new JButton("Continuar");
+		
+		invButton.setBackground(Color.WHITE);
+		sairButton.setBackground(Color.WHITE);
+		continueButton.setBackground(Color.WHITE);
+
+		
+		invButton.setBounds(10, 70, 150, 30);
+		continueButton.setBounds(10, 10, 150, 30);
+		sairButton.setBounds(10, 130, 150, 30);
+		
+		addKeyListener(new ControllerPause(this, player));
+		
+		panel.add(invButton);
+		panel.add(continueButton);
+		panel.add(sairButton);
+		
+		getContentPane().add(panel);
+		
+		setVisible(false);
 	}
 
 	public void paint(Graphics g) {
-		g.drawImage(img, 0, 0, null);
-		g.drawRect(156, 23, 201, 16);
-		g.fillRect(157, 24, player.getVida(), 16);
-		g.drawString(player.getVida() + "/" + vida, 365, 35);
-		g.drawString(player.getNome(), 40, 110);
-	
+		super.paint(g);
+		g.drawImage(imgPersonagem, 170, 0, null);
+		g.setColor(Color.WHITE);
+		g.drawRect(300, 53, 201, 10);
+		g.drawRect(165, 0, 511-165, 511);
+		g.drawRect(0, 0, 165, 511);
+		g.setColor(Color.RED);
+		g.fillRect(301, 54, player.getVida(), 10);
+		g.setColor(Color.WHITE);
+		g.setFont(new Font("", Font.TYPE1_FONT,15));
+		g.drawString(player.getVida() + "/" + vida, 450, 50);
+		g.drawString(player.getNome(), 300, 20);
+		g.drawString("HP", 300, 50);
+		
 		
 	}
 
-	@Override
 	public void run() {
 		while (true) {
-			try {
+			try {	
+//				super.repaint();
 				repaint();
 				Thread.sleep(1000/FPS);
+				
 			} 
 			catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
 	}
-
-	public Image getImageFundo() {
-		return imageFundo;
+	
+	
+	public JButton getInvButton() {
+		return invButton;
 	}
 
-	public void setImageFundo(Image image) {
-		this.imageFundo = image;
+	public void setInvButton(JButton invButton) {
+		this.invButton = invButton;
+	}
+
+	public JButton getContinueButton() {
+		return continueButton;
+	}
+
+	public void setContinueButton(JButton continueButton) {
+		this.continueButton = continueButton;
+	}
+
+	public JButton getSairButton() {
+		return sairButton;
+	}
+
+	public void setSairButton(JButton sairButton) {
+		this.sairButton = sairButton;
 	}
 }
