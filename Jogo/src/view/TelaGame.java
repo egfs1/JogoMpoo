@@ -17,6 +17,8 @@ import controller.ControllerPlayer;
 import model.Camada2;
 import model.Game;
 import model.Inimigo;
+import model.Item;
+import model.ItemChave;
 import model.Player;
 import model.Sprite;
 
@@ -29,10 +31,10 @@ public class TelaGame extends JFrame implements Runnable {
 	public Camada2 camada0, camada1, camada2;
 	
 	public Player player;
-	public Rectangle playerRect, inimigo1Rect, inimigo2Rect, inimigo3Rect;
 	public Inimigo inimigo1, inimigo2, inimigo3;
 	public BufferedImage tela;
-	public static Sprite personagem, inimigo1Sprite, inimigo2Sprite, inimigo3Sprite;
+	public ItemChave chave1;
+	public static Sprite personagem, inimigo1Sprite, inimigo2Sprite, inimigo3Sprite, chave1Sprite;
 	public static ArrayList<Inimigo>inimigos = new ArrayList<>();
 	public static ArrayList<Player>players = new ArrayList<>();
 	public int FPS=60;
@@ -61,6 +63,7 @@ public class TelaGame extends JFrame implements Runnable {
 			inimigo1Sprite = new Sprite(new File("src/resources/esqueletoSprite.png"), 0, 4, 2, (this.getWidth()/2), (this.getHeight()/2)-120);
 			inimigo2Sprite = new Sprite(new File("src/resources/esqueletoSprite.png"), 0, 4, 2, (this.getWidth()/2+120), (this.getHeight()/2));
 			inimigo3Sprite = new Sprite(new File("src/resources/esqueletoSprite.png"), 0, 4, 2, (this.getWidth()/2)-120, (this.getHeight()/2));
+			chave1Sprite = new Sprite(new File("src/resources/chaveSprite.png"), 0, 4, 1, 32*7, 32*2);
 		}
 		catch (IOException e) {
 			e.printStackTrace();
@@ -72,6 +75,8 @@ public class TelaGame extends JFrame implements Runnable {
 		inimigo1 = new Inimigo(50, 5, inimigo1Sprite);
 		inimigo2 = new Inimigo(100, 15, inimigo2Sprite);
 		inimigo3 = new Inimigo(150, 25, inimigo3Sprite);
+		
+		chave1 = new ItemChave("Chave", chave1Sprite, this);
 		
 		players.add(player);
 		inimigos.add(inimigo1);
@@ -110,7 +115,11 @@ public class TelaGame extends JFrame implements Runnable {
 		tela.getGraphics().setColor(Color.RED);
 		tela.getGraphics().fillRect(player.getSprite().posX+8, player.getSprite().posY-5,player.getVida()/8 , 3);
 		}	
-	
+		
+		if(chave1.getSprite()!=null) {
+			tela.getGraphics().drawImage(chave1.getSprite().sprites[chave1.getSprite().aparencia], chave1.getSprite().posX, chave1.getSprite().posY, null);
+		}
+		
 		if (inimigo1.getSprite()!=null) {
 		tela.getGraphics().drawImage(inimigo1.getSprite().sprites[inimigo1Sprite.aparencia], inimigo1Sprite.posX, inimigo1Sprite.posY, null);
 		tela.getGraphics().setColor(Color.RED);
@@ -135,18 +144,7 @@ public class TelaGame extends JFrame implements Runnable {
 		g2d.drawImage(tela, 0, 0, null);
 		
 		}
-	}
-
-	public void pauseThread() {
-		Thread ct = Thread.currentThread();
-	}
-	
-	public void resumeThread() {
-		Thread ct = Thread.currentThread();
-		ct.resume();
-	}
-	
-	
+	}	
 	
 	public void run() {
 		tela = new BufferedImage(1024, 1024, BufferedImage.TYPE_4BYTE_ABGR);

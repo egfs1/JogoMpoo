@@ -90,8 +90,8 @@ public class Game {
 				return null;
 			}
 			catch (NullPointerException e) {
-				return null;
 			}
+			return null;
 		}
 			
 		public void verificarVidaPlayer(Player player) {
