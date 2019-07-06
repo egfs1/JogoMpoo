@@ -32,7 +32,7 @@ public class Camada2 {
 	public Camada2(String nomeMapaMatriz) {
 		
 		try {
-			tileSet=ImageIO.read(new File("src/resources/Tileset.png"));
+			tileSet = ImageIO.read(new File("src\\resources\\Tileset.png"));
 		} catch (IOException e) {
 			System.out.println("Não conseguiu ler Tileset");
 			e.printStackTrace();

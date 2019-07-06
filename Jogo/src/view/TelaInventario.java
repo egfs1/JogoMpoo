@@ -36,18 +36,17 @@ public class TelaInventario extends JFrame {
 		voltarButton.setBackground(Color.WHITE);
 		textAreaItems = new JTextArea();
 		textAreaItems.setFont(new Font("", Font.TYPE1_FONT,15));
-		textAreaItems.setBackground(Color.WHITE);
+//		textAreaItems.setBackground(Color.WHITE);
 		
 		textAreaItems.setEditable(false);
 		String s="";
 		for (Item i: player.items) {
+			s += "\n      ";
 			s += i.getNome();
-			s += "\n";
 		}
-		if (s=="") {s = "Você não possui nenhum Item";}
+		if (s=="") {s = "\n      Você não possui nenhum Item";}
 		textAreaItems.setText(s);
 		
-		voltarButton.setBackground(Color.WHITE);
 		voltarButton.setBounds(206, getWidth()-50, 100, 30);
 		textAreaItems.setBounds(20, 20, getWidth()-40, getHeight()-100);
 		

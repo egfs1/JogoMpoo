@@ -16,7 +16,8 @@ public class ControllerInimigo implements Runnable {
 	int up, down, left, right;
 	static int lado=0;
 	Rectangle test=null;
-	int FPS = 2;
+	int FPS = 4;
+	int contadorAndar, contadorAtacar;
 	
 	
 	public ControllerInimigo(TelaGame telagame,Inimigo inimigo) {
@@ -30,37 +31,50 @@ public class ControllerInimigo implements Runnable {
 			
 			Player p = telagame.game.retornarPlayer(test);
 			Rectangle pRect = p.getSprite().getRect();
+			
 			Rectangle testUp = new Rectangle(inimigo.getSprite().posX-31, inimigo.getSprite().posY-32, inimigo.getSprite().width+64, 32);
 			Rectangle testDown = new Rectangle(inimigo.getSprite().posX-31, inimigo.getSprite().posY+32, inimigo.getSprite().width+64, 32);
 			Rectangle testLeft = new Rectangle(inimigo.getSprite().posX-31, inimigo.getSprite().posY-31, 32, inimigo.getSprite().height+64);
 			Rectangle testRight = new Rectangle(inimigo.getSprite().posX+31, inimigo.getSprite().posY-31, 32, inimigo.getSprite().height+64);
+
+			Rectangle attackUp = new Rectangle(inimigo.getSprite().posX, inimigo.getSprite().posY-4, inimigo.getSprite().width, 4);
+			Rectangle attackDown = new Rectangle(inimigo.getSprite().posX, inimigo.getSprite().posY+32, inimigo.getSprite().width, 4);
+			Rectangle attackLeft = new Rectangle(inimigo.getSprite().posX-4, inimigo.getSprite().posY, 4, inimigo.getSprite().height);
+			Rectangle attackRight = new Rectangle(inimigo.getSprite().posX+31, inimigo.getSprite().posY, 4, inimigo.getSprite().height);
+			
 			
 			if (pRect.intersects(testUp)) {
-				if (moverCima(inimigo)==false) {
-					inimigo.atacar(p);
-					telagame.game.verificarVidaPlayer(p);
-						
+				if (moverCima(inimigo)==false ) {
+						if (pRect.intersects(attackUp) && contadorAtacar==0) {
+						inimigo.atacar(p);
+						telagame.game.verificarVidaPlayer(p);
+						contadorAtacar=4;
+						}
 					}
 				}
 			if (pRect.intersects(testDown))
 				if (moverBaixo(inimigo)==false) {
-
-					inimigo.atacar(p);
-					telagame.game.verificarVidaPlayer(p);
-
+					if (pRect.intersects(attackDown) && contadorAtacar==0) {
+						inimigo.atacar(p);
+						telagame.game.verificarVidaPlayer(p);
+						contadorAtacar=4;
+						}
 				}
 			if (pRect.intersects(testLeft))
 				if (moverEsquerda(inimigo)==false) {
-
-					inimigo.atacar(p);
-					telagame.game.verificarVidaPlayer(p);
-
+					if (pRect.intersects(attackLeft) && contadorAtacar==0) {
+						inimigo.atacar(p);
+						telagame.game.verificarVidaPlayer(p);
+						contadorAtacar=4;
+						}
 				}
 			if (pRect.intersects(testRight))
 				if (moverDireita(inimigo)==false) {
-					inimigo.atacar(p);
-					telagame.game.verificarVidaPlayer(p);
-
+					if (pRect.intersects(attackRight) && contadorAtacar==0) {
+						inimigo.atacar(p);
+						telagame.game.verificarVidaPlayer(p);
+						contadorAtacar=4;
+						}
 				}
 					
 			
@@ -104,8 +118,8 @@ public class ControllerInimigo implements Runnable {
 	}
 	public boolean moverBaixo(Inimigo inimigo) {
 		test = new Rectangle(inimigo.getSprite().posX, inimigo.getSprite().posY+4, inimigo.getSprite().width, inimigo.getSprite().height);
-		if (telagame.game.colisao(inimigo.getSprite().posX, inimigo.getSprite().posY+32)&& telagame.game.colisaoPlayer(test)) {
-			if (telagame.game.colisao(inimigo.getSprite().posX+31, inimigo.getSprite().posY+32)&& telagame.game.colisaoPlayer(test)){
+		if (telagame.game.colisao(inimigo.getSprite().posX, inimigo.getSprite().posY+35)&& telagame.game.colisaoPlayer(test)) {
+			if (telagame.game.colisao(inimigo.getSprite().posX+31, inimigo.getSprite().posY+35)&& telagame.game.colisaoPlayer(test)){
 				inimigo.getSprite().posY += 4;
 				inimigo.getSprite().setRect(new Rectangle(inimigo.getSprite().posX, inimigo.getSprite().posY, inimigo.getSprite().width, inimigo.getSprite().height));
 				
@@ -170,8 +184,8 @@ public class ControllerInimigo implements Runnable {
 	public boolean moverDireita(Inimigo inimigo) {
 		lado=0;
 		test = new Rectangle(inimigo.getSprite().posX+4, inimigo.getSprite().posY, inimigo.getSprite().width, inimigo.getSprite().height);
-		if (telagame.game.colisao(inimigo.getSprite().posX+32, inimigo.getSprite().posY)&& telagame.game.colisaoPlayer(test)) {
-			if (telagame.game.colisao(inimigo.getSprite().posX+32, inimigo.getSprite().posY+31)&& telagame.game.colisaoPlayer(test)){
+		if (telagame.game.colisao(inimigo.getSprite().posX+35, inimigo.getSprite().posY)&& telagame.game.colisaoPlayer(test)) {
+			if (telagame.game.colisao(inimigo.getSprite().posX+35, inimigo.getSprite().posY+31)&& telagame.game.colisaoPlayer(test)){
 				inimigo.getSprite().posX += 4;
 				inimigo.getSprite().setRect(new Rectangle(inimigo.getSprite().posX, inimigo.getSprite().posY, inimigo.getSprite().width, inimigo.getSprite().height));
 			
@@ -200,28 +214,32 @@ public class ControllerInimigo implements Runnable {
 	}
 
 	@Override
-	public void run() {
+	public void run(){
+		contadorAtacar = 0;
 		while (true) {
 			try {
 				try {
-					if (moverPlayer(inimigo)==false) {
-					
-						int x = random.nextInt(4);
+						if (moverPlayer(inimigo)==false) {
 						
-						if (x==0)
-							moverBaixo(inimigo);
+							int x = random.nextInt(4);
+							
+							if (x==0)
+								moverBaixo(inimigo);
+							
+							if (x==1)
+								moverCima(inimigo);
+							
+							if (x==2)
+								moverDireita(inimigo);
+							
+							if (x==3)
+								moverEsquerda(inimigo);
 						
-						if (x==1)
-							moverCima(inimigo);
-						
-						if (x==2)
-							moverDireita(inimigo);
-						
-						if (x==3)
-							moverEsquerda(inimigo);
 					}
 				}
 				catch (NullPointerException e) {}
+				
+				if (contadorAtacar> 0) contadorAtacar--;
 				
 				Thread.sleep(1000/FPS);
 				

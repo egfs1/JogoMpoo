@@ -19,8 +19,7 @@ public class ControllerMenu implements ActionListener {
 			public void actionPerformed(ActionEvent arg0) {
 				tm.setVisible(false);
 				Player player = new Player(tm.getNomeField().getText());
-				TelaGame game = new TelaGame(player);
-				game.setVisible(true);
+				ControllerGame game = new ControllerGame(player);
 				
 				new Thread(game).start();
 //				game.run();	

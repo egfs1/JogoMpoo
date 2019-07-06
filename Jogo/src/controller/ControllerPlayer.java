@@ -1,14 +1,21 @@
 package controller;
 
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.awt.image.BufferedImage;
 
 import model.Player;
+import model.Som;
 import model.Sprite;
 import view.TelaGame;
 
 public class ControllerPlayer extends KeyAdapter{
+	
+	Som som = new Som();
 	Player player;
 	TelaGame telagame;
 	Sprite personagem;
@@ -68,8 +75,8 @@ public class ControllerPlayer extends KeyAdapter{
 			}
 			if (e.getKeyCode()==KeyEvent.VK_S){
 				test = new Rectangle(personagem.posX, personagem.posY+4, personagem.width, personagem.height);
-				if (telagame.game.colisao(personagem.posX, personagem.posY+32) && telagame.game.colisaoInimigo(test)) {
-					if (telagame.game.colisao(personagem.posX+31, personagem.posY+32) && telagame.game.colisaoInimigo(test)){
+				if (telagame.game.colisao(personagem.posX, personagem.posY+35) && telagame.game.colisaoInimigo(test)) {
+					if (telagame.game.colisao(personagem.posX+31, personagem.posY+35) && telagame.game.colisaoInimigo(test)){
 						personagem.posY += 4;
 						personagem.setRect(new Rectangle(personagem.posX, personagem.posY, personagem.width, personagem.height));
 					}
@@ -91,8 +98,8 @@ public class ControllerPlayer extends KeyAdapter{
 				}
 				if (velocidade == 2) {
 					test = new Rectangle(personagem.posX, personagem.posY+4, personagem.width, personagem.height);
-					if (telagame.game.colisao(personagem.posX, personagem.posY+32) && telagame.game.colisaoInimigo(test)) {
-						if (telagame.game.colisao(personagem.posX+31, personagem.posY+32) && telagame.game.colisaoInimigo(test)){
+					if (telagame.game.colisao(personagem.posX, personagem.posY+35) && telagame.game.colisaoInimigo(test)) {
+						if (telagame.game.colisao(personagem.posX+31, personagem.posY+35) && telagame.game.colisaoInimigo(test)){
 							personagem.posY += 4;
 							personagem.setRect(new Rectangle(personagem.posX, personagem.posY, personagem.width, personagem.height));
 						}
@@ -144,8 +151,8 @@ public class ControllerPlayer extends KeyAdapter{
 			if (e.getKeyCode()==KeyEvent.VK_D){
 				lado=0;
 				test = new Rectangle(personagem.posX+4, personagem.posY, personagem.width, personagem.height);
-				if (telagame.game.colisao(personagem.posX+32, personagem.posY) && telagame.game.colisaoInimigo(test)) {
-					if (telagame.game.colisao(personagem.posX+32, personagem.posY+31) && telagame.game.colisaoInimigo(test)){
+				if (telagame.game.colisao(personagem.posX+35, personagem.posY) && telagame.game.colisaoInimigo(test)) {
+					if (telagame.game.colisao(personagem.posX+35, personagem.posY+31) && telagame.game.colisaoInimigo(test)){
 						personagem.posX += 4;
 						personagem.setRect(new Rectangle(personagem.posX, personagem.posY, personagem.width, personagem.height));
 					}
@@ -167,8 +174,8 @@ public class ControllerPlayer extends KeyAdapter{
 				}
 				if (velocidade == 2) {
 					test = new Rectangle(personagem.posX+4, personagem.posY, personagem.width, personagem.height);
-					if (telagame.game.colisao(personagem.posX+32, personagem.posY) && telagame.game.colisaoInimigo(test)) {
-						if (telagame.game.colisao(personagem.posX+32, personagem.posY+31) && telagame.game.colisaoInimigo(test)){
+					if (telagame.game.colisao(personagem.posX+35, personagem.posY) && telagame.game.colisaoInimigo(test)) {
+						if (telagame.game.colisao(personagem.posX+35, personagem.posY+31) && telagame.game.colisaoInimigo(test)){
 							personagem.posX += 4;
 							personagem.setRect(new Rectangle(personagem.posX, personagem.posY, personagem.width, personagem.height));
 
@@ -193,26 +200,32 @@ public class ControllerPlayer extends KeyAdapter{
 			}
 			
 			if (e.getKeyCode()== KeyEvent.VK_ENTER) {
+//				System.out.println(telagame.cg.contadorAtaque);
 				if (lado==0) {
 					test = new Rectangle(personagem.posX+15, personagem.posY-4, (personagem.width/2)+4, personagem.height+8);
-					if (telagame.game.colisaoInimigo(test)==false) {
+					if (telagame.game.colisaoInimigo(test)==false && telagame.cg.contadorAtaque==0) {
 						telagame.game.atacarInimigo(player, test);
+						som.atacarSom();
+						telagame.cg.contadorAtaque = 20;
 					}
 				}
 				
 				if (lado==1) {
 					test = new Rectangle(personagem.posX-4, personagem.posY-4, (personagem.width/2)+4, personagem.height+8);
-					if (telagame.game.colisaoInimigo(test)==false) {
+					if (telagame.game.colisaoInimigo(test)==false && telagame.cg.contadorAtaque==0) {
 						telagame.game.atacarInimigo(player, test);
+						som.atacarSom();
+						telagame.cg.contadorAtaque = 20;
 					}
 				}
 			}
 			
-		
 			
 		}
 		
 	}
+	
+	
 	public static int getVelocidade() {
 		return velocidade;
 	}

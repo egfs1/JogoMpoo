@@ -9,7 +9,7 @@ public class ControllerChave implements Runnable {
 
 	TelaGame telaGame;
 	ItemChave chave;
-	int FPS=4;
+	int FPS=60;
 	int k;
 	
 	
@@ -39,32 +39,37 @@ public class ControllerChave implements Runnable {
 
 
 	public void run() {
+		int contador = FPS;
 		while (true) {
 			verificarPegarChave();
 			try {
 				try {
-					switch (k) {
-					case 0:
-						chave.getSprite().aparencia = 0;
-						break;
-					case 1:
-						chave.getSprite().aparencia = 1;
-						break;
-					case 2:
-						chave.getSprite().aparencia = 2;
-						break;
-					case 3:
-						chave.getSprite().aparencia = 3;
-						break;
-					}
+					if (contador%12==0) {
+						switch (k) {
+						case 0:
+							chave.getSprite().aparencia = 0;
+							break;
+						case 1:
+							chave.getSprite().aparencia = 1;
+							break;
+						case 2:
+							chave.getSprite().aparencia = 2;
+							break;
+						case 3:
+							chave.getSprite().aparencia = 3;
+							break;
+						}
 					if (k==3)k=0;
 					k++;
+					}
 				}
 				catch (NullPointerException n) {
 					break;
 				}
 								
 				Thread.sleep(1000/FPS);
+				if(contador==0)contador=FPS;
+				contador--;
 			}
 			catch (InterruptedException e) {}
 		}

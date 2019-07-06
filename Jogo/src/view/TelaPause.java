@@ -36,7 +36,6 @@ public class TelaPause extends JFrame implements Runnable {
 		setUndecorated(true);
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		
-		
 		try {
 			imgPersonagem = ImageIO.read(new File("src/resources/imgPersonagem2.png"));
 		} catch (IOException e) {

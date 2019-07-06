@@ -1,8 +1,5 @@
 package App;
 
-import controller.ControllerMenu;
-import model.Player;
-import view.TelaGame;
 import view.TelaMenu;
 
 public class App {

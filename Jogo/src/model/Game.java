@@ -119,15 +119,7 @@ public class Game {
 				for (Inimigo i: TelaGame.inimigos) {
 					if (rect.intersects(i.getSprite().getRect())) {
 						player.atacar(i);
-						
-//						int x =12;
-//						while(x>0) {
-//							if (telaGame.game.colisao(i.getSprite().posX-1, i.getSprite().posY))
-//								i.getSprite().posX-=1;
-//								i.getSprite().setRect(new Rectangle(i.getSprite().posX-1, i.getSprite().posY, i.getSprite().width, i.getSprite().height));
-//								x--;
-//						}
-						
+												
 						if (i.getVida() <= 0) {
 							i.setSprite(null);
 							TelaGame.inimigos.remove(i);
