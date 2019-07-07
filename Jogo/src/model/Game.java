@@ -52,6 +52,20 @@ public class Game {
 			return true;	
 		}
 		
+	public boolean colisaoRectangle(Rectangle rect, Sprite excecao) {
+		try {
+			for (Sprite s: TelaGame.sprites) {
+				if (rect.intersects(s.getRect()) && s!=excecao) {
+					return false;
+				}
+			}
+			return true;
+		}
+		catch (NullPointerException e) {
+			return true;
+		}
+	} 
+		
 		public boolean colisaoInimigo(Rectangle rect) {
 			try {
 				for (Inimigo i: TelaGame.inimigos) {
@@ -99,8 +113,10 @@ public class Game {
 				if (player.getVida() <= 0) {
 						TelaGameOver tgo = new TelaGameOver(telaGame, player);
 						
-						player.setSprite(null);
+						TelaGame.sprites.remove(player.getSprite());
 						TelaGame.players.remove(player);
+						player.setSprite(null);
+						
 						
 						tgo.setVisible(true);
 						telaGame.dispose();
@@ -121,8 +137,9 @@ public class Game {
 						player.atacar(i);
 												
 						if (i.getVida() <= 0) {
-							i.setSprite(null);
 							TelaGame.inimigos.remove(i);
+							TelaGame.sprites.remove(i.getSprite());
+							i.setSprite(null);
 							i=null;
 							
 						}
@@ -132,5 +149,32 @@ public class Game {
 			}
 			catch (NullPointerException e) {
 			}
+		}
+		
+		public void verificarAbrirPorta(Player player) {
+			Rectangle test=null;
+			if (telaGame.cp1.getLado() == 0) {
+				test = new Rectangle(player.getSprite().posX-1, player.getSprite().posY-1, player.getSprite().width/2, player.getSprite().height+2);
+			}
+			
+			if (telaGame.cp1.getLado()==1) {
+				test = new Rectangle(player.getSprite().posX+8, player.getSprite().posY-1, player.getSprite().width/2, player.getSprite().height+2);
+			}
+			
+			
+			for (Porta porta: telaGame.portas) {
+				if (test.intersects(porta.getSprite().getRect())) {
+					for (Item i: player.getItems()) {
+						if (i.getNome().equals(porta.getChave().getNome())) {
+							TelaGame.sprites.remove(porta.getSprite());
+							porta.setSprite(null);
+							porta=null;
+							telaGame.portas.remove(porta);
+							break;
+						}
+					}
+				}
+			}
+			
 		}
 }

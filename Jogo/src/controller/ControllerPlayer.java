@@ -1,12 +1,8 @@
 package controller;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-import java.awt.image.BufferedImage;
 
 import model.Player;
 import model.Som;
@@ -21,7 +17,7 @@ public class ControllerPlayer extends KeyAdapter{
 	Sprite personagem;
 	static int velocidade=1;
 	int up, down, left, right;
-	static int lado=0;
+	private int lado=0;
 	Rectangle test=null;
 	
 	public ControllerPlayer(TelaGame telagame,Sprite personagem, Player player) {
@@ -36,8 +32,8 @@ public class ControllerPlayer extends KeyAdapter{
 			
 			if (e.getKeyCode()==KeyEvent.VK_W){
 				test = new Rectangle(personagem.posX, personagem.posY-4, personagem.width, personagem.height);
-				if (telagame.game.colisao(personagem.posX, personagem.posY-4) && telagame.game.colisaoInimigo(test)) {
-					if (telagame.game.colisao(personagem.posX+31, personagem.posY-4) && telagame.game.colisaoInimigo(test)){
+				if (telagame.game.colisao(personagem.posX, personagem.posY-4) && telagame.game.colisaoRectangle(test, player.getSprite())) {
+					if (telagame.game.colisao(personagem.posX+31, personagem.posY-4) && telagame.game.colisaoRectangle(test, player.getSprite())){
 						personagem.posY -= 4;
 						personagem.setRect(new Rectangle(personagem.posX, personagem.posY, personagem.width, personagem.height));
 					}
@@ -60,8 +56,8 @@ public class ControllerPlayer extends KeyAdapter{
 				
 				if (velocidade == 2) {
 					test = new Rectangle(personagem.posX, personagem.posY-4, personagem.width, personagem.height);
-					if (telagame.game.colisao(personagem.posX, personagem.posY-4) && telagame.game.colisaoInimigo(test)) {
-						if (telagame.game.colisao(personagem.posX+31, personagem.posY-4) && telagame.game.colisaoInimigo(test)){
+					if (telagame.game.colisao(personagem.posX, personagem.posY-4) && telagame.game.colisaoRectangle(test, player.getSprite())) {
+						if (telagame.game.colisao(personagem.posX+31, personagem.posY-4) && telagame.game.colisaoRectangle(test, player.getSprite())){
 							personagem.posY -= 4;
 							personagem.setRect(new Rectangle(personagem.posX, personagem.posY, personagem.width, personagem.height));
 						}
@@ -75,8 +71,8 @@ public class ControllerPlayer extends KeyAdapter{
 			}
 			if (e.getKeyCode()==KeyEvent.VK_S){
 				test = new Rectangle(personagem.posX, personagem.posY+4, personagem.width, personagem.height);
-				if (telagame.game.colisao(personagem.posX, personagem.posY+35) && telagame.game.colisaoInimigo(test)) {
-					if (telagame.game.colisao(personagem.posX+31, personagem.posY+35) && telagame.game.colisaoInimigo(test)){
+				if (telagame.game.colisao(personagem.posX, personagem.posY+35) && telagame.game.colisaoRectangle(test, player.getSprite())) {
+					if (telagame.game.colisao(personagem.posX+31, personagem.posY+35) && telagame.game.colisaoRectangle(test, player.getSprite())){
 						personagem.posY += 4;
 						personagem.setRect(new Rectangle(personagem.posX, personagem.posY, personagem.width, personagem.height));
 					}
@@ -98,8 +94,8 @@ public class ControllerPlayer extends KeyAdapter{
 				}
 				if (velocidade == 2) {
 					test = new Rectangle(personagem.posX, personagem.posY+4, personagem.width, personagem.height);
-					if (telagame.game.colisao(personagem.posX, personagem.posY+35) && telagame.game.colisaoInimigo(test)) {
-						if (telagame.game.colisao(personagem.posX+31, personagem.posY+35) && telagame.game.colisaoInimigo(test)){
+					if (telagame.game.colisao(personagem.posX, personagem.posY+35) && telagame.game.colisaoRectangle(test, player.getSprite())) {
+						if (telagame.game.colisao(personagem.posX+31, personagem.posY+35) && telagame.game.colisaoRectangle(test, player.getSprite())){
 							personagem.posY += 4;
 							personagem.setRect(new Rectangle(personagem.posX, personagem.posY, personagem.width, personagem.height));
 						}
@@ -113,8 +109,8 @@ public class ControllerPlayer extends KeyAdapter{
 			if (e.getKeyCode()==KeyEvent.VK_A){
 				lado=1;
 				test = new Rectangle(personagem.posX-4, personagem.posY, personagem.width, personagem.height);
-				if (telagame.game.colisao(personagem.posX-4, personagem.posY) && telagame.game.colisaoInimigo(test)) {
-					if (telagame.game.colisao(personagem.posX-4, personagem.posY+31) && telagame.game.colisaoInimigo(test)){
+				if (telagame.game.colisao(personagem.posX-4, personagem.posY) && telagame.game.colisaoRectangle(test,player.getSprite())) {
+					if (telagame.game.colisao(personagem.posX-4, personagem.posY+31) && telagame.game.colisaoRectangle(test, player.getSprite())){
 						personagem.posX -= 4;
 						personagem.setRect(new Rectangle(personagem.posX, personagem.posY, personagem.width, personagem.height));
 					}
@@ -136,8 +132,8 @@ public class ControllerPlayer extends KeyAdapter{
 				}
 				if (velocidade == 2) {
 					test = new Rectangle(personagem.posX-4, personagem.posY, personagem.width, personagem.height);
-					if (telagame.game.colisao(personagem.posX-4, personagem.posY) && telagame.game.colisaoInimigo(test)) {
-						if (telagame.game.colisao(personagem.posX-4, personagem.posY+31) && telagame.game.colisaoInimigo(test)){
+					if (telagame.game.colisao(personagem.posX-4, personagem.posY) && telagame.game.colisaoRectangle(test, player.getSprite())) {
+						if (telagame.game.colisao(personagem.posX-4, personagem.posY+31) && telagame.game.colisaoRectangle(test, player.getSprite())){
 							personagem.posX -= 4;
 							personagem.setRect(new Rectangle(personagem.posX, personagem.posY, personagem.width, personagem.height));
 						}
@@ -151,8 +147,8 @@ public class ControllerPlayer extends KeyAdapter{
 			if (e.getKeyCode()==KeyEvent.VK_D){
 				lado=0;
 				test = new Rectangle(personagem.posX+4, personagem.posY, personagem.width, personagem.height);
-				if (telagame.game.colisao(personagem.posX+35, personagem.posY) && telagame.game.colisaoInimigo(test)) {
-					if (telagame.game.colisao(personagem.posX+35, personagem.posY+31) && telagame.game.colisaoInimigo(test)){
+				if (telagame.game.colisao(personagem.posX+35, personagem.posY) && telagame.game.colisaoRectangle(test,player.getSprite())) {
+					if (telagame.game.colisao(personagem.posX+35, personagem.posY+31) && telagame.game.colisaoRectangle(test, player.getSprite())){
 						personagem.posX += 4;
 						personagem.setRect(new Rectangle(personagem.posX, personagem.posY, personagem.width, personagem.height));
 					}
@@ -174,8 +170,8 @@ public class ControllerPlayer extends KeyAdapter{
 				}
 				if (velocidade == 2) {
 					test = new Rectangle(personagem.posX+4, personagem.posY, personagem.width, personagem.height);
-					if (telagame.game.colisao(personagem.posX+35, personagem.posY) && telagame.game.colisaoInimigo(test)) {
-						if (telagame.game.colisao(personagem.posX+35, personagem.posY+31) && telagame.game.colisaoInimigo(test)){
+					if (telagame.game.colisao(personagem.posX+35, personagem.posY) && telagame.game.colisaoRectangle(test, player.getSprite())) {
+						if (telagame.game.colisao(personagem.posX+35, personagem.posY+31) && telagame.game.colisaoRectangle(test, player.getSprite())){
 							personagem.posX += 4;
 							personagem.setRect(new Rectangle(personagem.posX, personagem.posY, personagem.width, personagem.height));
 
@@ -197,6 +193,10 @@ public class ControllerPlayer extends KeyAdapter{
 			
 			if (e.getKeyCode()== KeyEvent.VK_SHIFT) {
 				setVelocidade(1);
+			}
+			
+			if (e.getKeyCode()== KeyEvent.VK_E) {
+				telagame.game.verificarAbrirPorta(player);
 			}
 			
 			if (e.getKeyCode()== KeyEvent.VK_ENTER) {
@@ -230,18 +230,15 @@ public class ControllerPlayer extends KeyAdapter{
 		return velocidade;
 	}
 
-	
 
-	public static int getLado() {
+	public int getLado() {
 		return lado;
 	}
 
 
-
-	public static void setLado(int lado) {
-		ControllerPlayer.lado = lado;
+	public void setLado(int lado) {
+		this.lado = lado;
 	}
-
 
 
 	public static void setVelocidade(int velocidade) {

@@ -18,6 +18,7 @@ import model.Game;
 import model.Inimigo;
 import model.ItemChave;
 import model.Player;
+import model.Porta;
 import model.Sprite;
 
 public class TelaGame extends JFrame{
@@ -32,11 +33,15 @@ public class TelaGame extends JFrame{
 	public Inimigo inimigo1, inimigo2, inimigo3;
 	public BufferedImage tela;
 	public ItemChave chave1;
-	public static Sprite personagem, inimigo1Sprite, inimigo2Sprite, inimigo3Sprite, chave1Sprite;
+	public Porta porta1;
+	public static Sprite personagem, inimigo1Sprite, inimigo2Sprite, inimigo3Sprite, chave1Sprite, porta1Sprite;
+	public static ArrayList<Sprite>sprites = new ArrayList<>();
 	public static ArrayList<Inimigo>inimigos = new ArrayList<>();
 	public static ArrayList<Player>players = new ArrayList<>();
+	public ArrayList<Porta>portas = new ArrayList<>();
 	public int FPS=60;
 	public ControllerGame cg;
+	public ControllerPlayer cp1;
 	
 	public int posXMatriz, posYMatriz;
 	public Game game;
@@ -64,11 +69,18 @@ public class TelaGame extends JFrame{
 			inimigo2Sprite = new Sprite(new File("src/resources/esqueletoSprite.png"), 0, 4, 2, (this.getWidth()/2+120), (this.getHeight()/2));
 			inimigo3Sprite = new Sprite(new File("src/resources/esqueletoSprite.png"), 0, 4, 2, (this.getWidth()/2)-120, (this.getHeight()/2));
 			chave1Sprite = new Sprite(new File("src/resources/chaveSprite.png"), 0, 4, 1, 32*7, 32*2);
+			porta1Sprite = new Sprite(new File("src/resources/portaSprite.png"), 0, 1, 1, 32*7, 32*11);
 		}
 		catch (IOException e) {
 			e.printStackTrace();
 			System.out.println("Não foi possível carregar a Sprite");
 		}
+		
+		sprites.add(personagem);
+		sprites.add(inimigo1Sprite);
+		sprites.add(inimigo2Sprite);
+		sprites.add(inimigo3Sprite);
+		sprites.add(porta1Sprite);
 		
 		player.setSprite(personagem);
 		
@@ -78,17 +90,20 @@ public class TelaGame extends JFrame{
 		
 		chave1 = new ItemChave("Chave", chave1Sprite, this);
 		
+		porta1 = new Porta(porta1Sprite, chave1, this);
+		
 		players.add(player);
 		inimigos.add(inimigo1);
 		inimigos.add(inimigo2);
 		inimigos.add(inimigo3);
 		
+		portas.add(porta1);
 		
 		camada0.montarMapa();
 		camada1.montarMapa();
 		camada2.montarMapa();
 		
-		addKeyListener(new ControllerPlayer(this, personagem, player));
+		cp1 = new ControllerPlayer(this, personagem, player);
 		
 		ControllerInimigo controllerInimigo1 = new ControllerInimigo(this, inimigo1);
 		ControllerInimigo controllerInimigo2 = new ControllerInimigo(this, inimigo2);
@@ -117,6 +132,10 @@ public class TelaGame extends JFrame{
 		
 		if(chave1.getSprite()!=null) {
 			tela.getGraphics().drawImage(chave1.getSprite().sprites[chave1.getSprite().aparencia], chave1.getSprite().posX, chave1.getSprite().posY, null);
+		}
+		
+		if(porta1.getSprite()!=null) {
+			tela.getGraphics().drawImage(porta1.getSprite().sprites[porta1.getSprite().aparencia], porta1.getSprite().posX, porta1.getSprite().posY, null);
 		}
 		
 		if (inimigo1.getSprite()!=null) {
