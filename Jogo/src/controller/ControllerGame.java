@@ -1,14 +1,10 @@
 package controller;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 
 import model.Player;
-import model.Sprite;
 import view.TelaGame;
 import view.TelaPause;
 
@@ -18,6 +14,7 @@ public class ControllerGame extends KeyAdapter implements Runnable {
 	int up, down, left, right;
 	Player player;
 	public int contadorAtaque=0;
+	public int contadorRepaint;
 	
 	public ControllerGame(Player player) {
 		this.player = player;
@@ -43,17 +40,19 @@ public class ControllerGame extends KeyAdapter implements Runnable {
 	}
 	public void run() {
 		telagame.tela = new BufferedImage(1024, 1024, BufferedImage.TYPE_4BYTE_ABGR);
-		int i=telagame.FPS*5;
+		int i=telagame.FPS*2;
 		while (true) {
 			
 			try {
+				contadorRepaint=0;
 				telagame.repaint();
+				contadorRepaint=1;
 				if (i==1)
-					player.setVida(player.getVida()+25);
+					player.setVida(player.getVida()+18);
 				
 				i--;
 				if (i==0)
-					i=telagame.FPS*5;
+					i=telagame.FPS*2;
 				
 				if (contadorAtaque > 0) contadorAtaque--;
 				

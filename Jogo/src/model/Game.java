@@ -25,7 +25,7 @@ public class Game {
 			posXMatriz = ((posX)/ 32);
 			posYMatriz = ((posY)/ 32);
 			
-			int[][] mtz = telaGame.camada1.carregarMatriz("resources/Camada1.txt");
+			int[][] mtz = telaGame.camada1.carregarMatriz("resources/Camadaa1.txt");
 			
 			ArrayList<String> numeros = new ArrayList<>();
 			InputStream input = getClass().getClassLoader().getResourceAsStream("resources/Objetos_col.txt");
@@ -111,6 +111,7 @@ public class Game {
 		public void verificarVidaPlayer(Player player) {
 			try {
 				if (player.getVida() <= 0) {
+						
 						TelaGameOver tgo = new TelaGameOver(telaGame, player);
 						
 						TelaGame.sprites.remove(player.getSprite());
@@ -167,12 +168,13 @@ public class Game {
 					for (Item i: player.getItems()) {
 						if (i.getNome().equals(porta.getChave().getNome())) {
 							TelaGame.sprites.remove(porta.getSprite());
+							telaGame.portas.remove(porta);
 							porta.setSprite(null);
 							porta=null;
-							telaGame.portas.remove(porta);
 							break;
 						}
 					}
+					if (porta==null)break;
 				}
 			}
 			

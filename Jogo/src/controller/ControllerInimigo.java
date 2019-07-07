@@ -16,7 +16,7 @@ public class ControllerInimigo implements Runnable {
 	int up, down, left, right;
 	static int lado=0;
 	Rectangle test=null;
-	int FPS = 4;
+	int FPS = 10;
 	int contadorAndar, contadorAtacar;
 	
 	
@@ -48,7 +48,7 @@ public class ControllerInimigo implements Runnable {
 						if (pRect.intersects(attackUp) && contadorAtacar==0) {
 						inimigo.atacar(p);
 						telagame.game.verificarVidaPlayer(p);
-						contadorAtacar=4;
+						contadorAtacar=5;
 						}
 					}
 				}
@@ -57,7 +57,7 @@ public class ControllerInimigo implements Runnable {
 					if (pRect.intersects(attackDown) && contadorAtacar==0) {
 						inimigo.atacar(p);
 						telagame.game.verificarVidaPlayer(p);
-						contadorAtacar=4;
+						contadorAtacar=5;
 						}
 				}
 			if (pRect.intersects(testLeft))
@@ -65,7 +65,7 @@ public class ControllerInimigo implements Runnable {
 					if (pRect.intersects(attackLeft) && contadorAtacar==0) {
 						inimigo.atacar(p);
 						telagame.game.verificarVidaPlayer(p);
-						contadorAtacar=4;
+						contadorAtacar=5;
 						}
 				}
 			if (pRect.intersects(testRight))
@@ -73,7 +73,7 @@ public class ControllerInimigo implements Runnable {
 					if (pRect.intersects(attackRight) && contadorAtacar==0) {
 						inimigo.atacar(p);
 						telagame.game.verificarVidaPlayer(p);
-						contadorAtacar=4;
+						contadorAtacar=5;
 						}
 				}
 					
@@ -87,8 +87,8 @@ public class ControllerInimigo implements Runnable {
 	
 	public boolean moverCima(Inimigo inimigo) {
 		test = new Rectangle(inimigo.getSprite().posX, inimigo.getSprite().posY-4, inimigo.getSprite().width, inimigo.getSprite().height);
-		if (telagame.game.colisao(inimigo.getSprite().posX, inimigo.getSprite().posY-4) && telagame.game.colisaoPlayer(test)) {
-			if (telagame.game.colisao(inimigo.getSprite().posX+31, inimigo.getSprite().posY-4) && telagame.game.colisaoPlayer(test)){
+		if (telagame.game.colisao(inimigo.getSprite().posX, inimigo.getSprite().posY-4) && telagame.game.colisaoRectangle(test, inimigo.getSprite())) {
+			if (telagame.game.colisao(inimigo.getSprite().posX+31, inimigo.getSprite().posY-4) && telagame.game.colisaoRectangle(test, inimigo.getSprite())){
 				inimigo.getSprite().posY -= 4;
 				inimigo.getSprite().setRect(new Rectangle(inimigo.getSprite().posX, inimigo.getSprite().posY, inimigo.getSprite().width, inimigo.getSprite().height));
 			
@@ -118,8 +118,8 @@ public class ControllerInimigo implements Runnable {
 	}
 	public boolean moverBaixo(Inimigo inimigo) {
 		test = new Rectangle(inimigo.getSprite().posX, inimigo.getSprite().posY+4, inimigo.getSprite().width, inimigo.getSprite().height);
-		if (telagame.game.colisao(inimigo.getSprite().posX, inimigo.getSprite().posY+35)&& telagame.game.colisaoPlayer(test)) {
-			if (telagame.game.colisao(inimigo.getSprite().posX+31, inimigo.getSprite().posY+35)&& telagame.game.colisaoPlayer(test)){
+		if (telagame.game.colisao(inimigo.getSprite().posX, inimigo.getSprite().posY+35)&& telagame.game.colisaoRectangle(test, inimigo.getSprite())) {
+			if (telagame.game.colisao(inimigo.getSprite().posX+31, inimigo.getSprite().posY+35)&& telagame.game.colisaoRectangle(test, inimigo.getSprite())){
 				inimigo.getSprite().posY += 4;
 				inimigo.getSprite().setRect(new Rectangle(inimigo.getSprite().posX, inimigo.getSprite().posY, inimigo.getSprite().width, inimigo.getSprite().height));
 				
@@ -152,8 +152,8 @@ public class ControllerInimigo implements Runnable {
 	public boolean moverEsquerda(Inimigo inimigo) {
 		lado=1;
 		test = new Rectangle(inimigo.getSprite().posX-4, inimigo.getSprite().posY, inimigo.getSprite().width, inimigo.getSprite().height);
-		if (telagame.game.colisao(inimigo.getSprite().posX-4, inimigo.getSprite().posY)&& telagame.game.colisaoPlayer(test)) {
-			if (telagame.game.colisao(inimigo.getSprite().posX-4, inimigo.getSprite().posY+31)&& telagame.game.colisaoPlayer(test)){
+		if (telagame.game.colisao(inimigo.getSprite().posX-4, inimigo.getSprite().posY)&& telagame.game.colisaoRectangle(test, inimigo.getSprite())) {
+			if (telagame.game.colisao(inimigo.getSprite().posX-4, inimigo.getSprite().posY+31)&& telagame.game.colisaoRectangle(test, inimigo.getSprite())){
 				inimigo.getSprite().posX -= 4;
 				inimigo.getSprite().setRect(new Rectangle(inimigo.getSprite().posX, inimigo.getSprite().posY, inimigo.getSprite().width, inimigo.getSprite().height));
 				
@@ -184,8 +184,8 @@ public class ControllerInimigo implements Runnable {
 	public boolean moverDireita(Inimigo inimigo) {
 		lado=0;
 		test = new Rectangle(inimigo.getSprite().posX+4, inimigo.getSprite().posY, inimigo.getSprite().width, inimigo.getSprite().height);
-		if (telagame.game.colisao(inimigo.getSprite().posX+35, inimigo.getSprite().posY)&& telagame.game.colisaoPlayer(test)) {
-			if (telagame.game.colisao(inimigo.getSprite().posX+35, inimigo.getSprite().posY+31)&& telagame.game.colisaoPlayer(test)){
+		if (telagame.game.colisao(inimigo.getSprite().posX+35, inimigo.getSprite().posY)&& telagame.game.colisaoRectangle(test, inimigo.getSprite())) {
+			if (telagame.game.colisao(inimigo.getSprite().posX+35, inimigo.getSprite().posY+31)&& telagame.game.colisaoRectangle(test, inimigo.getSprite())){
 				inimigo.getSprite().posX += 4;
 				inimigo.getSprite().setRect(new Rectangle(inimigo.getSprite().posX, inimigo.getSprite().posY, inimigo.getSprite().width, inimigo.getSprite().height));
 			

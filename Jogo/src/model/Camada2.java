@@ -14,8 +14,8 @@ import java.util.StringTokenizer;
 import javax.imageio.ImageIO;
 
 public class Camada2 {
-	private final int numeroColunas = 16;
-	private final int numeroLinhas = 16;
+	private final int numeroColunas = 30;
+	private final int numeroLinhas = 20;
 	private final int colunasTileSet = 10;
 	private final int tileSize = 32;
 
@@ -32,7 +32,7 @@ public class Camada2 {
 	public Camada2(String nomeMapaMatriz) {
 		
 		try {
-			tileSet = ImageIO.read(new File("src\\resources\\Tileset.png"));
+			tileSet = ImageIO.read(new File("src/resources/Tileset.png"));
 		} catch (IOException e) {
 			System.out.println("Não conseguiu ler Tileset");
 			e.printStackTrace();
