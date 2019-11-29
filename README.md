@@ -1,4 +1,4 @@
-baixa o .rar nao a pasta
+baixa o .zip nao a pasta
 
 Mover - W,A,S,D //  
 Atacar- Enter // 
