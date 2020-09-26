@@ -1,0 +1,2197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dados>
+  <mapa1passou>false</mapa1passou>
+  <mapa2passou>false</mapa2passou>
+  <players>
+    <model.Player>
+      <nome>asd</nome>
+      <vida>200</vida>
+      <dano>10</dano>
+      <sprite>
+        <rect>
+          <x>416</x>
+          <y>128</y>
+          <width>32</width>
+          <height>32</height>
+        </rect>
+        <spriteSheet>
+          <accelerationPriority>0.5</accelerationPriority>
+          <imageType>6</imageType>
+          <colorModel class="java.awt.image.ComponentColorModel">
+            <pData>0</pData>
+            <pixel__bits>32</pixel__bits>
+            <nBits>
+              <int>8</int>
+              <int>8</int>
+              <int>8</int>
+              <int>8</int>
+            </nBits>
+            <transparency>3</transparency>
+            <supportsAlpha>true</supportsAlpha>
+            <isAlphaPremultiplied>false</isAlphaPremultiplied>
+            <numComponents>4</numComponents>
+            <numColorComponents>3</numColorComponents>
+            <colorSpace class="java.awt.color.ICC_ColorSpace" serialization="custom">
+              <java.awt.color.ColorSpace>
+                <default>
+                  <numComponents>3</numComponents>
+                  <type>5</type>
+                </default>
+              </java.awt.color.ColorSpace>
+              <java.awt.color.ICC__ColorSpace>
+                <default>
+                  <needScaleInit>true</needScaleInit>
+                  <maxVal>
+                    <float>1.0</float>
+                    <float>1.0</float>
+                    <float>1.0</float>
+                  </maxVal>
+                  <minVal>
+                    <float>0.0</float>
+                    <float>0.0</float>
+                    <float>0.0</float>
+                  </minVal>
+                  <thisProfile class="java.awt.color.ICC_ProfileRGB" serialization="custom">
+                    <java.awt.color.ICC__Profile>
+                      <default>
+                        <iccProfileSerializedDataVersion>1</iccProfileSerializedDataVersion>
+                      </default>
+                      <string>CS_sRGB</string>
+                      <null/>
+                    </java.awt.color.ICC__Profile>
+                  </thisProfile>
+                </default>
+              </java.awt.color.ICC__ColorSpace>
+            </colorSpace>
+            <colorSpaceType>5</colorSpaceType>
+            <maxBits>8</maxBits>
+            <is__sRGB>true</is__sRGB>
+            <transferType>0</transferType>
+            <signed>false</signed>
+            <is__sRGB__stdScale>true</is__sRGB__stdScale>
+            <is__LinearRGB__stdScale>false</is__LinearRGB__stdScale>
+            <is__LinearGray__stdScale>false</is__LinearGray__stdScale>
+            <is__ICCGray__stdScale>false</is__ICCGray__stdScale>
+            <needScaleInit>true</needScaleInit>
+            <noUnnorm>false</noUnnorm>
+            <nonStdScale>false</nonStdScale>
+          </colorModel>
+          <raster class="sun.awt.image.ByteInterleavedRaster">
+            <sampleModel class="java.awt.image.PixelInterleavedSampleModel">
+              <width>128</width>
+              <height>64</height>
+              <numBands defined-in="java.awt.image.SampleModel">4</numBands>
+              <dataType>0</dataType>
+              <bandOffsets>
+                <int>3</int>
+                <int>2</int>
+                <int>1</int>
+                <int>0</int>
+              </bandOffsets>
+              <bankIndices>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+              </bankIndices>
+              <numBands>4</numBands>
+              <numBanks>1</numBanks>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+            </sampleModel>
+            <dataBuffer class="java.awt.image.DataBufferByte">
+              <dataType>0</dataType>
+              <banks>1</banks>
+              <offset>0</offset>
+              <size>32768</size>
+              <offsets>
+                <int>0</int>
+              </offsets>
+              <theTrackable>
+                <theState>STABLE</theState>
+                <numDynamicAgents>0</numDynamicAgents>
+              </theTrackable>
+              <data>AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/
+GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoT
+Jf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/
+GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoT
+JfTPwa3/z8Gt/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/p6RkP8aEyX/GhMl
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP////8aEyX/GhMl+8/Brf/Pwa3/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+e
+kZD+npGQ/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/xoTJf8a
+EyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl
+/8/Brf/Pwa3/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyUA
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A/////xoTJf8aEyX/z8Gt/8/Brf+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56R
+kP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD/////GhMl/xoTJfTPwa3/z8Gt/56RkP+ekZD/npGQ/56RkP+ekZD/
+npGQ/56RkP+ekZD/npGQ/p6RkP8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl9M/Brf/Pwa3/npGQ/56R
+kP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD+npGQ/xoTJf8aEyUA////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl9M/Brf/Pwa3/
+npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoT
+Jf8aEyX7z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP////8aEyX/GhMl/8/Brf/Pwa3/npGQ/56RkP+ekZD/npGQ/56RkP+e
+kZD/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/z8Gt/8/Brf+ekZD/npGQ
+/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/z8Gt/8/Brf+e
+kZD/npGQ/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl
+/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/
+GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP////8aEyX/GhMl9M/Brf/Pwa3/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/GhMl/xoT
+Jf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A/////xoTJf8aEyX0z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyX/
+GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf+ekZD/npGQ/56R
+kP+ekZD/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/BrfvPwa3/GhMl
+/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/
+GhMl/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8a
+EyX/z8Gt/c/Brf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A/////xoTJf8aEyX/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD/////GhMl/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJf8a
+EyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/56RkP+ekZD/npGQ
+/56RkP8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/
+GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8a
+EyX/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoT
+Jf/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD/////GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/
+z8Gt/8/Brf8aEyX/GhMl/8/BrfTPwa3/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP////8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/8/B
+rf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt9M/Brf8aEyX/GhMlAP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/npGQ/56RkP/Pwa3/
+z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8a
+EyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoT
+Jf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl
+/8/Brf/Pwa3/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP////8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/P
+wa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A/////xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/z8Gt
+/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf+ekZD/npGQ/8/Brf/P
+wa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoT
+JQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl
+/56RkP+ekZD/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/
+z8Gt/8/Brf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A/////xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/B
+rf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD/////GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/
+z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJQD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/56RkP+ekZD/z8Gt/8/B
+rf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf8aEyX/GhMl
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/
+npGQ/56RkP/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/P
+wa3/z8Gt/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD/////GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt
+/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP////8aEyX/GhMl/56RkP+ekZD/z8Gt/8/Brf8aEyX/GhMl/8/Brf/P
+wa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMlAP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt
+/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa37z8Gt/xoTJf8aEyUA
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf+e
+kZD/npGQ/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/B
+rf3Pwa3/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP////8aEyX/GhMl/56RkP+ekZD/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/
+z8Gt/8/Brf/Pwa3/z8Gt/8/Brf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A/////xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/B
+rf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/
+npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ/xoTJf8aEyUA////AP///wD/
+//8A////AP///wD/////GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP////8aEyX/GhMl/xoT
+Jf8aEyX/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/GhMl
+/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+/////xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/P
+wa3/z8Gt/8/Brf/Pwa30z8Gt/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD/////GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt
+/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/GhMl/xoTJQD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP+e
+kZD/npGQ/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/GhMl/xoTJQD///8A////AP//
+/wD///8A////AP////8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A/////xoTJf8aEyX/GhMl
+/xoTJf+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP8aEyX/
+GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+////GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/GhMl/xoT
+Jf+ekZD/npGQ/xoTJf8aEyUA////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl
+AP///wD/////GhMl/xoTJf8aEyX/GhMl/zc3N/83Nzf/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/
+GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMlAP///wD/////GhMl/xoTJf8a
+EyX/GhMl/xoTJf8aEyUA////AP////8aEyX/GhMl/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/56R
+kP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////
+AP////8aEyX/GhMl/p6RkP+ekZD/GhMl/xoTJQD///8A////AP///wD/////GhMl/xoTJf83Nzf/
+Nzc3/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/xoTJf8a
+EyUA////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP//
+//8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl
+/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyUA
+////AP////8aEyX/GhMl/xoTJf8aEyX/Nzc3/zc3N/+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8a
+EyX/GhMl/xoTJf8aEyX/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyUA////AP////8aEyX/GhMl/xoT
+Jf8aEyX/GhMl/xoTJQD///8A/////xoTJf8aEyX/GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/npGQ
+/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A
+/////xoTJf8aEyX/npGQ/56RkP8aEyX/GhMlAP///wD///8A////AP////8aEyX/GhMl/zc3N/83
+Nzf/GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/GhMl/xoT
+JQD///8A////AP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyUA////AP////8aEyX/GhMl
+/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/
+GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP////8aEyX/GhMl/p6RkP+ekZD/GhMl/xoTJf8a
+EyX/GhMl/p6RkP+ekZD/z8Gt/8/Brf8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/56R
+kP+ekZD/npGQ/56RkP8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf8aEyX/GhMl/p6RkP+ekZD/npGQ
+/56RkP8aEyX/GhMl/xoTJf8aEyX+npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/83Nzf/
+Nzc3/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/xoTJf8a
+EyX+npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyUA////AP////8aEyX/GhMl/xoTJf8aEyX/Nzc3/zc3
+N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl
+/xoTJf8aEyUA////AP////8aEyX/GhMl/p6RkP+ekZD/GhMl/xoTJQD///8A/////xoTJf8aEyX/
+GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8a
+EyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A/////xoTJf8aEyX/npGQ/56RkP8aEyX/GhMl/xoT
+Jf8aEyX/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/npGQ
+/56RkP+ekZD/npGQ/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP+ekZD/
+npGQ/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/zc3N/83
+Nzf/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/GhMl/xoT
+Jf+ekZD/npGQ/8/BrfrPwa3/GhMl/xoTJQD///8A/////xoTJf8aEyX/GhMl/xoTJf83Nzf/Nzc3
+/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/
+GhMl/xoTJQD///8A/////xoTJf8aEyX/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX+npGQ/56RkP/P
+wa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/zc3
+N/83Nzf/z8Gt/8/Brf8aEyX/GhMl/xoTJf8aEyX+npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/GhMl
+/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf/Pwa3/
+z8Gt/xoTJf8aEyX/Nzc3/zc3N//Pwa3/z8Gt/xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/8/Brf/P
+wa3/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/z8Gt/8/Brf8aEyX/GhMl/zc3N/83Nzf/GhMl/xoT
+Jf+ekZD/npGQ/56RkP+ekZD/z8Gt/8/Brf83Nzf/Nzc3/8/Brf/Pwa3/GhMl/xoTJf+ekZD/npGQ
+/8/Brf/Pwa3/GhMl/xoTJQD///8A/////xoTJf8aEyX+npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/
+Nzc3/zc3N/8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP/Pwa3/z8Gt/zc3N/83Nzf/z8Gt/8/Brf8a
+EyX/GhMl/xoTJf8aEyX+npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ/8/B
+rf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/Nzc3
+/zc3N//Pwa3/z8Gt/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ/8/BrfrPwa3/GhMl/xoTJf8aEyX/
+GhMl/56RkP+ekZD/z8Gt/8/Brf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/P
+wa3/GhMl/xoTJf83Nzf/Nzc3/8/Brf/Pwa3/GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/z8Gt+s/B
+rf8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl
+/56RkP+ekZD/npGQ/56RkP/Pwa3/z8Gt/zc3N/83Nzf/z8Gt/8/Brf8aEyX/GhMl/56RkP+ekZD/
+z8Gt+s/Brf8aEyX/GhMlAP///wD/////GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJf83
+Nzf/Nzc3/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/8/Brf/Pwa3/Nzc3/zc3N//Pwa3/z8Gt/xoT
+Jf8aEyX/GhMl/xoTJf+ekZD/npGQ/8/BrfrPwa3/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/z8Gt
+/8/Brf8aEyX/GhMl/zc3N/83Nzf/GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/z8Gt/8/Brf83Nzf/
+Nzc3/8/Brf/Pwa3/GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJQD///8A/////xoTJf8a
+EyX/RVqJ/0Vaif8aEyX/GhMl/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/56RkP+ekZD/npGQ/56R
+kP/Pwa3/z8Gt/zc3N/83Nzf/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+AP///wD/////GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/
+GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf8a
+EyX/GhMlAP///wD///8A////AP////8aEyX/GhMl/56RkP+ekZD/z8Gt/8/Brf8aEyX/GhMl/zc3
+N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/8/Brf/Pwa3/GhMl
+/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJQD///8A/////xoTJf8aEyX/npGQ/56RkP/Pwa3/
+z8Gt/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP/Pwa3/z8Gt/zc3N/83
+Nzf/z8Gt/8/Brf8aEyX/GhMl/56RkP+ekZD/z8Gt+s/Brf8aEyX/GhMlAP///wD/////GhMl/xoT
+Jf9FWon/RVqJ/xoTJf8aEyX/GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ
+/8/Brf/Pwa3/Nzc3/zc3N/8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA
+////AP////8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8a
+EyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl/xoT
+Jf8aEyUA////AP///wD///8A/////xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/Nzc3
+/zc3N/83Nzf/Nzc3/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/zc3N/83Nzf/z8Gt/8/Brf8aEyX/
+GhMl/56RkP+ekZD/z8Gt+s/Brf8aEyX/GhMlAP///wD/////GhMl/xoTJf9FWon/RVqJ/xoTJf8a
+EyX/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/Nzc3/zc3
+N/8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP////8aEyX/GhMl
+/xoTJf8aEyX/GhMl/xoTJf9FWon/RVqJ/0Vaif9FWon/TXC//01wv/8aEyX/GhMl/8/Brf/Pwa3/
+GhMl/xoTJf9NcL//TXC//xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD/
+//8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/0Vaif9FWon/RVqJ/0Vaif9NcL//TXC//xoT
+Jf8aEyX/z8Gt/8/Brf8aEyX/GhMl/01wv/9NcL//GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////
+AP///wD///8A////AP///wD/////GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/GhMl/xoTJf9FWon/
+RVqJ/01wv/9NcL//GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/TXC//01wv/8aEyX/GhMl/0Vaif9F
+Won/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP////8aEyX/GhMl/0Vaif9FWon/GhMl/xoT
+Jf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3
+/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A/////xoTJf8aEyX/
+GhMl/xoTJf8aEyX/GhMl/0Vaif9FWon/RVqJ/0Vaif9NcL//TXC//xoTJf8aEyX/z8Gt/8/Brf8a
+EyX/GhMl/01wv/9NcL//GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP//
+/wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/RVqJ/0Vaif9FWon/RVqJ/01wv/9NcL//GhMl
+/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/TXC//01wv/8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A
+////AP///wD///8A////AP////8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf8aEyX/GhMl/0Vaif9F
+Won/TXC//01wv/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf9NcL//TXC//xoTJf8aEyX/RVqJ/0Va
+if8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/zc3N/83Nzf/TXC//01wv/9NcL//TXC//xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/01wv/9NcL//
+GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A/////xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/xoT
+Jf8aEyX/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD/////GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/
+GhMl/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3
+N/83Nzf/Nzc3/xoTJf8aEyX/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyUA////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/
+Nzc3/zc3N/9NcL//TXC//01wv/9NcL//GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/TXC//01wv/8a
+EyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD/////GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl
+/xoTJf83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8a
+EyX/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3
+/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/xoTJf8aEyX/
+GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3N/83
+Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3
+N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl
+/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf83Nzf/
+Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoT
+Jf9NcL//TXC//xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////
+AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/
+Nzc3/zc3N/8aEyX/GhMl/01wv/9NcL//GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJQD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf83Nzf/Nzc3/zc3
+N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3
+/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/
+GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/zc3N/83
+Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A/////xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl
+/01wv/9NcL//GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD/////GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83
+Nzf/Nzc3/xoTJf8aEyX/TXC//01wv/8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3
+/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/Nzc3/zc3N/83Nzf/
+Nzc3/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8a
+EyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/0Vaif9FWon/GhMl/xoT
+Jf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD/////GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/
+RVqJ/0Vaif8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3
+N/83Nzf/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////
+AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3N/83Nzf/
+Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf83Nzf/Nzc3/zc3N/83
+Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoT
+Jf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl
+/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf9F
+Won/RVqJ/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3
+/zc3N/8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJQD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/
+GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoT
+Jf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8a
+EyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A/////xoTJf8aEyX3npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/8/B
+rfHQwq7/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD/////GhMl/xoTJf6ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/
+npGQ/56RkP+ekZD/z8Gt9NHEsf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/GhMl/xoT
+Jf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////
+GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD/////GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/z8Gt
+/8/Brf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP////8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+e
+kZD/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8a
+EyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP////8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf+ekZD/
+npGQ/8/BrfHQwq7/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoT
+Jf8aEyX/GhMl/56RkP+ekZD/z8Gt9NHEsf8aEyX/GhMlAP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf6ekZD/npGQ/56RkP+ekZD/
+npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/z8Gt9NHEsf8aEyX/GhMlAP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/p6R
+kP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP/Pwa300cSx/xoTJf8aEyUA////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/56RkP+e
+kZD/z8Gt/8/Brf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+e
+kZD/npGQ/56RkP+ekZD/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/npGQ
+/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJQD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8a
+EyXcz8Gu/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/npGQ/56R
+kP+ekZD/npGQ/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD/////GhMl/xoTJfHQwq7/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/
+GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoT
+Jf8aEyX/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/z8Gt9NHEsf8aEyX/GhMlAP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/
+GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP/Pwa300cSx/xoTJf8a
+EyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoT
+Jf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf+ekZD/npGQ
+/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP////8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8a
+EyX/GhMl/56RkP+ekZD/npGQ/56RkP8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/xoTJf8a
+EyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoT
+JQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl
+/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/
+npGQ/56RkP8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A/////xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoT
+Jf8aEyX/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD/////GhMl/xoTJfTRxLH/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/
+GhMl/8/Brf/Pwa3/GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl9NHEsf/Pwa3/GhMl/xoT
+Jf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/
+z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf+e
+kZD/npGQ/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD/////GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl
+/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP////8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8a
+EyX/z8Gt/8/Brf8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP8aEyX/GhMlAP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl
+/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyUA
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf/P
+wa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/56R
+kP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP////8aEyX/GhMl/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/
+z8Gt/8/Brf/Pwa3/npGQ/56RkP8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A/////xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoT
+Jf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyUA////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/
+z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJQD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl3M/B
+rv/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/npGQ
+/56RkP8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+/////xoTJf8aEyXx0MKu/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/P
+wa3/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD/////GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl
+/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/P
+wa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/npGQ/56RkP8aEyX/GhMlAP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl
+/xoTJf+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8aEyX/
+GhMl/xoTJf8aEyUA////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJQD///8A////AP///wD/
+//8A////AP////8aEyX/GhMl/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/npGQ/56R
+kP+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP////8aEyX/GhMl/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/
+z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/npGQ/56RkP8aEyX/GhMlAP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/z8Gt/8/Brf/Pwa3/z8Gt/8/B
+rf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyUA////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/
+GhMl/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/xoTJf8a
+EyX/GhMl/xoTJQD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP//
+/wD///8A/////xoTJf8aEyX/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ
+/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A/////xoTJf8aEyX/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/P
+wa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyUA////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJfTRxLH/z8Gt/8/Brf/Pwa3/z8Gt
+/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJQD///8A
+////AP///wD/////GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A/////xoTJf8a
+EyX/GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/Nzc3/zc3
+N/8aEyX/GhMlAP///wD///8A////AP////8aEyX/GhMl/56RkP6ekZD/GhMl/xoTJQD///8A////
+/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/
+GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/GhMl/xoTJQD///8A/////xoTJf8aEyX/GhMl/xoTJf8a
+EyX/GhMlAP///wD/////GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/56R
+kP+ekZD/npGQ/56RkP+ekZD/npGQ/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMlAP///wD/////GhMl
+/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A/////xoTJf8aEyX/npGQ/56RkP8aEyX/
+GhMl/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMlAP///wD/
+//8A////AP////8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD/////GhMl/xoT
+Jf8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf83Nzf/Nzc3
+/xoTJf8aEyUA////AP///wD///8A/////xoTJf8aEyX/npGQ/56RkP8aEyX/GhMlAP///wD/////
+GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8a
+EyX/GhMl/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMlAP///wD/////GhMl/xoTJf8aEyX/GhMl/xoT
+Jf8aEyUA////AP////8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/npGQ
+/56RkP+ekZD/npGQ/56RkP+ekZD/Nzc3/zc3N/8aEyX/GhMl/xoTJf8aEyUA////AP////8aEyX/
+GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD/////GhMl/xoTJf+ekZD/npGQ/xoTJf8a
+EyX/GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyUA////AP//
+/wD///8A/////xoTJf8aEyX/npGQ956RkP8aEyX/GhMlAP///wD/////GhMl/xoTJf8aEyX/GhMl
+/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/
+GhMl/xoTJf8aEyX/GhMlAP///wD/////GhMl/xoTJf/Pwa3/z8Gt/56RkP6ekZD/GhMl/xoTJf8a
+EyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/zc3
+N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/56RkP6ekZD/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/npGQ
+/p6RkP8aEyX/GhMl/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+ekZD/
+npGQ/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/8/Brf/Pwa3/npGQ/p6RkP8aEyX/GhMl/xoTJf8a
+EyX/npGQ/p6RkP8aEyX/GhMlAP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/npGQ/56R
+kP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMl
+AP///wD/////GhMl/xoTJf+ekZD/npGQ/xoTJf8aEyUA////AP////8aEyX/GhMl/xoTJf8aEyX/
+Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8a
+EyX/GhMl/xoTJf8aEyUA////AP////8aEyX/GhMl4NDCr//Pwa3/npGQ/56RkP8aEyX/GhMl/xoT
+Jf8aEyX/z8Gt/8/Brf8aEyX/GhMl/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/zc3N/83Nzf/Nzc3
+/zc3N/8aEyX/GhMl/8/Brf/Pwa3/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP+ekZD/
+npGQ/xoTJf8aEyX/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/56RkP+e
+kZD/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyX/GhMl/xoT
+Jf+ekZD/npGQ/xoTJf8aEyUA////AP////8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ
+/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/xoTJf8aEyUA
+////AP////8aEyX/GhMl/8/Brf/Pwa3/npGQ956RkP8aEyX/GhMl/xoTJf8aEyX/z8Gt/8/Brf83
+Nzf/Nzc3/8/Brf/Pwa3/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/8/B
+rf/Pwa3/npGQ/p6RkP8aEyX/GhMlAP///wD/////GhMl/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl
+/xoTJf/Pwa3/z8Gt/zc3N/83Nzf/z8Gt/8/Brf+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf83Nzf/
+Nzc3/xoTJf8aEyX/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJf/Pwa3/z8Gt/8/Brf/P
+wa3/npGQ/56RkP8aEyX/GhMl/8/Brf/Pwa3/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoT
+Jf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl
+/8/Brf/Pwa3/npGQ/p6RkP8aEyX/GhMl/xoTJf8aEyX/z8Gt/8/Brf83Nzf/Nzc3/xoTJf8aEyX/
+z8Gt/8/Brf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/npGQ/p6RkP8a
+EyX/GhMl/xoTJf8aEyXg0MKv/8/Brf+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJf/Pwa3/z8Gt/zc3
+N/83Nzf/z8Gt/8/Brf+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/z8Gt
+/8/Brf+ekZD/npGQ/xoTJf8aEyUA////AP////8aEyX/GhMl4NDCr//Pwa3/npGQ/56RkP8aEyX/
+GhMl/8/Brf/Pwa3/Nzc3/zc3N//Pwa3/z8Gt/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/zc3N/83
+Nzf/GhMl/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl4NDCr//Pwa3/z8Gt/8/B
+rf+ekZD/npGQ/xoTJf8aEyX/z8Gt/8/Brf83Nzf/Nzc3/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl
+/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyXg
+0MKv/8/Brf+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJf/Pwa3/z8Gt/zc3N/83Nzf/GhMl/xoTJf/P
+wa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/z8Gt/8/Brf+ekZD/npGQ/xoT
+Jf8aEyUA////AP////8aEyX/GhMl/8/Brf/Pwa3/npGQ/56RkP8aEyX/GhMl/8/Brf/Pwa3/Nzc3
+/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf/Pwa3/
+z8Gt/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/0Vaif9F
+Won/GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3
+N/8aEyX/GhMl/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMlAP///wD/////GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl/zc3N/83Nzf/z8Gt/8/Brf+ekZD/npGQ/56RkP+ekZD/
+GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyUA////AP////8a
+EyX/GhMl/8/Brf/Pwa3/npGQ/56RkP8aEyX/GhMl/8/Brf/Pwa3/Nzc3/zc3N//Pwa3/z8Gt/56R
+kP+ekZD/npGQ/56RkP8aEyX/GhMl/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl
+/xoTJQD///8A/////xoTJf8aEyXg0MKv/8/Brf+ekZD/npGQ/xoTJf8aEyX/z8Gt/8/Brf83Nzf/
+Nzc3/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/P
+wa3/npGQ/56RkP8aEyX/GhMlAP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyX/RVqJ/0Va
+if8aEyX/GhMl/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3
+/xoTJf8aEyX/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyUA////AP////8aEyX/GhMl/xoTJf8aEyX/
+GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/Nzc3/zc3N//Pwa3/z8Gt/56RkP+ekZD/npGQ/56RkP8a
+EyX/GhMl/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJQD///8A/////xoT
+Jf8aEyXg0MKv/8/Brf+ekZD/npGQ/xoTJf8aEyX/z8Gt/8/Brf83Nzf/Nzc3/8/Brf/Pwa3/npGQ
+/56RkP+ekZD/npGQ/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/npGQ/56RkP8aEyX/
+GhMlAP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl/01wv/9N
+cL//GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/TXC//01wv/9FWon/RVqJ/xoTJf8aEyX/GhMl/xoT
+Jf9FWon/RVqJ/xoTJf8aEyUA////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/TXC//01wv/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf9NcL//TXC//0Vaif9FWon/
+RVqJ/0Vaif8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A////AP///wD///8A////AP////8a
+EyX/GhMl/xoTJf8aEyX/GhMl/xoTJf9NcL//TXC//xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/01w
+v/9NcL//RVqJ/0Vaif9FWon/RVqJ/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////
+AP////8aEyX/GhMl/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl/zc3N/83Nzf/GhMl/xoTJf/Pwa3/
+z8Gt/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/GhMl/xoTJf9FWon/RVqJ/xoTJf8a
+EyUA////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/TXC//01w
+v/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf9NcL//TXC//0Vaif9FWon/GhMl/xoTJf8aEyX/GhMl
+/0Vaif9FWon/GhMl/xoTJQD///8A////AP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyX/
+GhMl/xoTJf9NcL//TXC//xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/01wv/9NcL//RVqJ/0Vaif9F
+Won/RVqJ/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A/////xoT
+Jf8aEyX/GhMl/xoTJf8aEyX/GhMl/01wv/9NcL//GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/TXC/
+/01wv/9FWon/RVqJ/0Vaif9FWon/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A
+/////xoTJf8aEyX/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/8/Brf/P
+wa3/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMl/0Vaif9FWon/GhMl/xoT
+JQD///8A////AP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf83Nzf/Nzc3
+/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/
+GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8a
+EyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3
+N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/
+Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP////8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf9NcL//TXC//xoTJf8aEyX/z8Gt/8/B
+rf8aEyX/GhMl/01wv/9NcL//TXC//01wv/83Nzf/Nzc3/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/zc3N/83Nzf/
+Nzc3/zc3N/8aEyX/GhMl/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf8a
+EyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoT
+Jf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3
+/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD/////GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/zc3N/83
+Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/01wv/9NcL//GhMl/xoTJf/Pwa3/z8Gt
+/xoTJf8aEyX/TXC//01wv/9NcL//TXC//zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA
+////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8a
+EyX/GhMl/01wv/9NcL//GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoT
+Jf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/Nzc3
+/zc3N/83Nzf/Nzc3/xoTJf8aEyX/TXC//01wv/8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/
+Nzc3/zc3N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+////GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3
+N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/
+Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoT
+Jf8aEyX/TXC//01wv/8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl
+/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf83Nzf/
+Nzc3/zc3N/83Nzf/GhMl/xoTJf9NcL//TXC//xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83
+Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+//8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3
+/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A
+////AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf83
+Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJQD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl
+/xoTJf9FWon/RVqJ/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/
+GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/zc3N/83
+Nzf/Nzc3/zc3N/8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3
+N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl/zc3N/83Nzf/
+Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD/////GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf9FWon/RVqJ/xoT
+Jf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/
+GhMl/0Vaif9FWon/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8a
+EyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3
+N/83Nzf/Nzc3/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3
+/zc3N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////
+GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/Nzc3/zc3N/83
+Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/0Vaif9FWon/GhMl
+/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8=</data>
+              <bankdata>
+                <byte-array reference="../../data"/></bankdata>
+            </dataBuffer>
+            <minX>0</minX>
+            <minY>0</minY>
+            <width>128</width>
+            <height>64</height>
+            <sampleModelTranslateX>0</sampleModelTranslateX>
+            <sampleModelTranslateY>0</sampleModelTranslateY>
+            <numBands>4</numBands>
+            <numDataElements>4</numDataElements>
+            <theTrackable reference="../dataBuffer/theTrackable"/>
+            <bandOffset>3</bandOffset>
+            <dataOffsets>
+              <int>3</int>
+              <int>2</int>
+              <int>1</int>
+              <int>0</int>
+            </dataOffsets>
+            <scanlineStride>512</scanlineStride>
+            <pixelStride>4</pixelStride>
+            <data reference="../dataBuffer/data"/>
+            <type>1</type>
+            <maxX defined-in="sun.awt.image.ByteComponentRaster">128</maxX>
+            <maxY defined-in="sun.awt.image.ByteComponentRaster">64</maxY>
+            <inOrder>false</inOrder>
+            <dbOffset>0</dbOffset>
+            <dbOffsetPacked>0</dbOffsetPacked>
+            <packed>false</packed>
+            <maxX>128</maxX>
+            <maxY>64</maxY>
+          </raster>
+        </spriteSheet>
+        <width>32</width>
+        <height>32</height>
+        <rows>4</rows>
+        <columns>2</columns>
+        <posX>416</posX>
+        <posY>128</posY>
+        <sprites>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <surfaceManager class="sun.awt.image.BufImgSurfaceManager">
+              <bImg reference="../.."/>
+              <sdDefault class="sun.awt.image.BufImgSurfaceData">
+                <pData>432334800</pData>
+                <valid>true</valid>
+                <surfaceLost>false</surfaceLost>
+                <surfaceType>
+                  <uniqueID>14</uniqueID>
+                  <desc>4 Byte ABGR</desc>
+                  <next>
+                    <uniqueID>7</uniqueID>
+                    <desc>Any 4 Byte Component</desc>
+                    <next>
+                      <uniqueID>1</uniqueID>
+                      <desc>Any Surface</desc>
+                      <pixelConverter>
+                        <alphaMask>0</alphaMask>
+                      </pixelConverter>
+                    </next>
+                    <pixelConverter reference="../next/pixelConverter"/>
+                  </next>
+                  <pixelConverter class="sun.awt.image.PixelConverter$Rgba">
+                    <alphaMask>255</alphaMask>
+                  </pixelConverter>
+                </surfaceType>
+                <colorModel class="java.awt.image.ComponentColorModel" reference="../../../../../spriteSheet/colorModel"/>
+                <disposerReferent/>
+                <stateDelegate reference="../../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+                <haveLCDLoop>0</haveLCDLoop>
+                <havePgramXORLoop>0</havePgramXORLoop>
+                <havePgramSolidLoop>0</havePgramSolidLoop>
+                <bufImg reference="../../.."/>
+                <solidloops>
+                  <drawLineLoop>
+                    <methodSignature>DrawLine(...)</methodSignature>
+                    <uniqueID>134680612</uniqueID>
+                    <sourceType>
+                      <uniqueID>36</uniqueID>
+                      <desc>Single Color</desc>
+                      <next>
+                        <uniqueID>35</uniqueID>
+                        <desc>Paint Object</desc>
+                        <next reference="../../../../../surfaceType/next/next"/>
+                        <pixelConverter reference="../../../../../surfaceType/next/next/pixelConverter"/>
+                      </next>
+                      <pixelConverter reference="../../../../surfaceType/next/next/pixelConverter"/>
+                    </sourceType>
+                    <compositeType>
+                      <uniqueID>16</uniqueID>
+                      <desc>Porter-Duff Src, No Extra Alpha</desc>
+                      <next>
+                        <uniqueID>5</uniqueID>
+                        <desc>Porter-Duff Src</desc>
+                        <next>
+                          <uniqueID>2</uniqueID>
+                          <desc>Any AlphaComposite Rule</desc>
+                          <next>
+                            <uniqueID>1</uniqueID>
+                            <desc>Any CompositeContext</desc>
+                          </next>
+                        </next>
+                      </next>
+                    </compositeType>
+                    <destType reference="../../../surfaceType/next"/>
+                    <pNativePrim>140735712064928</pNativePrim>
+                  </drawLineLoop>
+                  <fillRectLoop>
+                    <methodSignature>FillRect(...)</methodSignature>
+                    <uniqueID>67571748</uniqueID>
+                    <sourceType reference="../../drawLineLoop/sourceType"/>
+                    <compositeType reference="../../drawLineLoop/compositeType"/>
+                    <destType reference="../../../surfaceType/next"/>
+                    <pNativePrim>140735712064704</pNativePrim>
+                  </fillRectLoop>
+                  <drawRectLoop>
+                    <methodSignature>DrawRect(...)</methodSignature>
+                    <uniqueID>151457828</uniqueID>
+                    <sourceType reference="../../drawLineLoop/sourceType"/>
+                    <compositeType reference="../../drawLineLoop/compositeType"/>
+                    <destType reference="../../../surfaceType/next"/>
+                    <pNativePrim>140735712064984</pNativePrim>
+                  </drawRectLoop>
+                  <drawPolygonsLoop>
+                    <methodSignature>DrawPolygons(...)</methodSignature>
+                    <uniqueID>168235044</uniqueID>
+                    <sourceType reference="../../drawLineLoop/sourceType"/>
+                    <compositeType reference="../../drawLineLoop/compositeType"/>
+                    <destType reference="../../../surfaceType/next"/>
+                    <pNativePrim>140735712065040</pNativePrim>
+                  </drawPolygonsLoop>
+                  <drawPathLoop>
+                    <methodSignature>DrawPath(...)</methodSignature>
+                    <uniqueID>185012260</uniqueID>
+                    <sourceType reference="../../drawLineLoop/sourceType"/>
+                    <compositeType reference="../../drawLineLoop/compositeType"/>
+                    <destType reference="../../../surfaceType/next"/>
+                    <pNativePrim>140735712065096</pNativePrim>
+                  </drawPathLoop>
+                  <fillPathLoop>
+                    <methodSignature>FillPath(...)</methodSignature>
+                    <uniqueID>201789476</uniqueID>
+                    <sourceType reference="../../drawLineLoop/sourceType"/>
+                    <compositeType reference="../../drawLineLoop/compositeType"/>
+                    <destType reference="../../../surfaceType/next"/>
+                    <pNativePrim>140735712065152</pNativePrim>
+                  </fillPathLoop>
+                  <fillSpansLoop>
+                    <methodSignature>FillSpans(...)</methodSignature>
+                    <uniqueID>84348964</uniqueID>
+                    <sourceType reference="../../drawLineLoop/sourceType"/>
+                    <compositeType reference="../../drawLineLoop/compositeType"/>
+                    <destType reference="../../../surfaceType/next"/>
+                    <pNativePrim>140735712064760</pNativePrim>
+                  </fillSpansLoop>
+                  <fillParallelogramLoop>
+                    <methodSignature>FillParallelogram(...)</methodSignature>
+                    <uniqueID>101126180</uniqueID>
+                    <sourceType reference="../../drawLineLoop/sourceType"/>
+                    <compositeType reference="../../drawLineLoop/compositeType"/>
+                    <destType reference="../../../surfaceType/next"/>
+                    <pNativePrim>140735712064816</pNativePrim>
+                  </fillParallelogramLoop>
+                  <drawParallelogramLoop>
+                    <methodSignature>DrawParallelogram(...)</methodSignature>
+                    <uniqueID>117903396</uniqueID>
+                    <sourceType reference="../../drawLineLoop/sourceType"/>
+                    <compositeType reference="../../drawLineLoop/compositeType"/>
+                    <destType reference="../../../surfaceType/next"/>
+                    <pNativePrim>140735712064872</pNativePrim>
+                  </drawParallelogramLoop>
+                  <drawGlyphListLoop>
+                    <methodSignature>DrawGlyphList(...)</methodSignature>
+                    <uniqueID>252121124</uniqueID>
+                    <sourceType reference="../../drawLineLoop/sourceType"/>
+                    <compositeType reference="../../drawLineLoop/compositeType"/>
+                    <destType reference="../../../surfaceType/next"/>
+                    <pNativePrim>140735712065600</pNativePrim>
+                  </drawGlyphListLoop>
+                  <drawGlyphListAALoop>
+                    <methodSignature>DrawGlyphListAA(...)</methodSignature>
+                    <uniqueID>269357092</uniqueID>
+                    <sourceType reference="../../drawLineLoop/sourceType"/>
+                    <compositeType reference="../../drawLineLoop/compositeType"/>
+                    <destType reference="../../../surfaceType"/>
+                    <pNativePrim>140735712080184</pNativePrim>
+                  </drawGlyphListAALoop>
+                  <drawGlyphListLCDLoop>
+                    <methodSignature>DrawGlyphListLCD(...)</methodSignature>
+                    <uniqueID>286134308</uniqueID>
+                    <sourceType reference="../../drawLineLoop/sourceType"/>
+                    <compositeType reference="../../drawLineLoop/compositeType"/>
+                    <destType reference="../../../surfaceType"/>
+                    <pNativePrim>140735712080240</pNativePrim>
+                  </drawGlyphListLCDLoop>
+                </solidloops>
+              </sdDefault>
+            </surfaceManager>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>0</sampleModelTranslateX>
+              <sampleModelTranslateY>0</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>3</bandOffset>
+              <dataOffsets>
+                <int>3</int>
+                <int>2</int>
+                <int>1</int>
+                <int>0</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>0</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>0</sampleModelTranslateX>
+              <sampleModelTranslateY>-32</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>16387</bandOffset>
+              <dataOffsets>
+                <int>16387</int>
+                <int>16386</int>
+                <int>16385</int>
+                <int>16384</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>16384</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>-32</sampleModelTranslateX>
+              <sampleModelTranslateY>0</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>131</bandOffset>
+              <dataOffsets>
+                <int>131</int>
+                <int>130</int>
+                <int>129</int>
+                <int>128</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>128</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>-32</sampleModelTranslateX>
+              <sampleModelTranslateY>-32</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>16515</bandOffset>
+              <dataOffsets>
+                <int>16515</int>
+                <int>16514</int>
+                <int>16513</int>
+                <int>16512</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>16512</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>-64</sampleModelTranslateX>
+              <sampleModelTranslateY>0</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>259</bandOffset>
+              <dataOffsets>
+                <int>259</int>
+                <int>258</int>
+                <int>257</int>
+                <int>256</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>256</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>-64</sampleModelTranslateX>
+              <sampleModelTranslateY>-32</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>16643</bandOffset>
+              <dataOffsets>
+                <int>16643</int>
+                <int>16642</int>
+                <int>16641</int>
+                <int>16640</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>16640</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>-96</sampleModelTranslateX>
+              <sampleModelTranslateY>0</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>387</bandOffset>
+              <dataOffsets>
+                <int>387</int>
+                <int>386</int>
+                <int>385</int>
+                <int>384</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>384</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>-96</sampleModelTranslateX>
+              <sampleModelTranslateY>-32</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>16771</bandOffset>
+              <dataOffsets>
+                <int>16771</int>
+                <int>16770</int>
+                <int>16769</int>
+                <int>16768</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>16768</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+        </sprites>
+        <aparencia>0</aparencia>
+      </sprite>
+      <items/>
+      <contadorAtaque>0</contadorAtaque>
+      <contadorFlecha>0</contadorFlecha>
+      <lado>0</lado>
+      <ladoFlecha>1</ladoFlecha>
+    </model.Player>
+    <model.Player>
+      <nome>asd</nome>
+      <vida>200</vida>
+      <dano>10</dano>
+      <sprite>
+        <rect>
+          <x>480</x>
+          <y>128</y>
+          <width>32</width>
+          <height>32</height>
+        </rect>
+        <spriteSheet>
+          <accelerationPriority>0.5</accelerationPriority>
+          <imageType>6</imageType>
+          <colorModel class="java.awt.image.ComponentColorModel" reference="../../../../model.Player/sprite/spriteSheet/colorModel"/>
+          <raster class="sun.awt.image.ByteInterleavedRaster">
+            <sampleModel class="java.awt.image.PixelInterleavedSampleModel">
+              <width>128</width>
+              <height>64</height>
+              <numBands defined-in="java.awt.image.SampleModel">4</numBands>
+              <dataType>0</dataType>
+              <bandOffsets>
+                <int>3</int>
+                <int>2</int>
+                <int>1</int>
+                <int>0</int>
+              </bandOffsets>
+              <bankIndices>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+                <int>0</int>
+              </bankIndices>
+              <numBands>4</numBands>
+              <numBanks>1</numBanks>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+            </sampleModel>
+            <dataBuffer class="java.awt.image.DataBufferByte">
+              <dataType>0</dataType>
+              <banks>1</banks>
+              <offset>0</offset>
+              <size>32768</size>
+              <offsets>
+                <int>0</int>
+              </offsets>
+              <theTrackable>
+                <theState>STABLE</theState>
+                <numDynamicAgents>0</numDynamicAgents>
+              </theTrackable>
+              <data>AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/
+GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoT
+Jf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/
+GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoT
+JfTPwa3/z8Gt/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/p6RkP8aEyX/GhMl
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP////8aEyX/GhMl+8/Brf/Pwa3/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+e
+kZD+npGQ/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/xoTJf8a
+EyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl
+/8/Brf/Pwa3/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyUA
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A/////xoTJf8aEyX/z8Gt/8/Brf+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56R
+kP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD/////GhMl/xoTJfTPwa3/z8Gt/56RkP+ekZD/npGQ/56RkP+ekZD/
+npGQ/56RkP+ekZD/npGQ/p6RkP8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl9M/Brf/Pwa3/npGQ/56R
+kP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD+npGQ/xoTJf8aEyUA////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl9M/Brf/Pwa3/
+npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoT
+Jf8aEyX7z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP////8aEyX/GhMl/8/Brf/Pwa3/npGQ/56RkP+ekZD/npGQ/56RkP+e
+kZD/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/z8Gt/8/Brf+ekZD/npGQ
+/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/z8Gt/8/Brf+e
+kZD/npGQ/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl
+/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/
+GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP////8aEyX/GhMl9M/Brf/Pwa3/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/GhMl/xoT
+Jf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A/////xoTJf8aEyX0z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyX/
+GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf+ekZD/npGQ/56R
+kP+ekZD/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/BrfvPwa3/GhMl
+/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/
+GhMl/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8a
+EyX/z8Gt/c/Brf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A/////xoTJf8aEyX/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD/////GhMl/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJf8a
+EyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/56RkP+ekZD/npGQ
+/56RkP8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/
+GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8a
+EyX/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoT
+Jf/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD/////GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/
+z8Gt/8/Brf8aEyX/GhMl/8/BrfTPwa3/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP////8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/8/B
+rf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt9M/Brf8aEyX/GhMlAP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/npGQ/56RkP/Pwa3/
+z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8a
+EyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoT
+Jf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl
+/8/Brf/Pwa3/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP////8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/P
+wa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A/////xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/z8Gt
+/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf+ekZD/npGQ/8/Brf/P
+wa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoT
+JQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl
+/56RkP+ekZD/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/
+z8Gt/8/Brf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A/////xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/B
+rf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD/////GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/
+z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJQD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/56RkP+ekZD/z8Gt/8/B
+rf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf8aEyX/GhMl
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/
+npGQ/56RkP/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/P
+wa3/z8Gt/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD/////GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt
+/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP////8aEyX/GhMl/56RkP+ekZD/z8Gt/8/Brf8aEyX/GhMl/8/Brf/P
+wa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMlAP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt
+/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa37z8Gt/xoTJf8aEyUA
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf+e
+kZD/npGQ/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/B
+rf3Pwa3/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP////8aEyX/GhMl/56RkP+ekZD/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/
+z8Gt/8/Brf/Pwa3/z8Gt/8/Brf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A/////xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/B
+rf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/
+npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ/xoTJf8aEyUA////AP///wD/
+//8A////AP///wD/////GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP////8aEyX/GhMl/xoT
+Jf8aEyX/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/GhMl
+/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+/////xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/P
+wa3/z8Gt/8/Brf/Pwa30z8Gt/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD/////GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt
+/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/GhMl/xoTJQD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP+e
+kZD/npGQ/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/GhMl/xoTJQD///8A////AP//
+/wD///8A////AP////8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A/////xoTJf8aEyX/GhMl
+/xoTJf+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP8aEyX/
+GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+////GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/GhMl/xoT
+Jf+ekZD/npGQ/xoTJf8aEyUA////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl
+AP///wD/////GhMl/xoTJf8aEyX/GhMl/zc3N/83Nzf/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/
+GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMlAP///wD/////GhMl/xoTJf8a
+EyX/GhMl/xoTJf8aEyUA////AP////8aEyX/GhMl/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/56R
+kP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////
+AP////8aEyX/GhMl/p6RkP+ekZD/GhMl/xoTJQD///8A////AP///wD/////GhMl/xoTJf83Nzf/
+Nzc3/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/xoTJf8a
+EyUA////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP//
+//8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl
+/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyUA
+////AP////8aEyX/GhMl/xoTJf8aEyX/Nzc3/zc3N/+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8a
+EyX/GhMl/xoTJf8aEyX/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyUA////AP////8aEyX/GhMl/xoT
+Jf8aEyX/GhMl/xoTJQD///8A/////xoTJf8aEyX/GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/npGQ
+/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A
+/////xoTJf8aEyX/npGQ/56RkP8aEyX/GhMlAP///wD///8A////AP////8aEyX/GhMl/zc3N/83
+Nzf/GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/GhMl/xoT
+JQD///8A////AP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyUA////AP////8aEyX/GhMl
+/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/
+GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP////8aEyX/GhMl/p6RkP+ekZD/GhMl/xoTJf8a
+EyX/GhMl/p6RkP+ekZD/z8Gt/8/Brf8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/56R
+kP+ekZD/npGQ/56RkP8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf8aEyX/GhMl/p6RkP+ekZD/npGQ
+/56RkP8aEyX/GhMl/xoTJf8aEyX+npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/83Nzf/
+Nzc3/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/xoTJf8a
+EyX+npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyUA////AP////8aEyX/GhMl/xoTJf8aEyX/Nzc3/zc3
+N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl
+/xoTJf8aEyUA////AP////8aEyX/GhMl/p6RkP+ekZD/GhMl/xoTJQD///8A/////xoTJf8aEyX/
+GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8a
+EyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A/////xoTJf8aEyX/npGQ/56RkP8aEyX/GhMl/xoT
+Jf8aEyX/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/npGQ
+/56RkP+ekZD/npGQ/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP+ekZD/
+npGQ/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/zc3N/83
+Nzf/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/GhMl/xoT
+Jf+ekZD/npGQ/8/BrfrPwa3/GhMl/xoTJQD///8A/////xoTJf8aEyX/GhMl/xoTJf83Nzf/Nzc3
+/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/
+GhMl/xoTJQD///8A/////xoTJf8aEyX/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX+npGQ/56RkP/P
+wa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/zc3
+N/83Nzf/z8Gt/8/Brf8aEyX/GhMl/xoTJf8aEyX+npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/GhMl
+/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf/Pwa3/
+z8Gt/xoTJf8aEyX/Nzc3/zc3N//Pwa3/z8Gt/xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/8/Brf/P
+wa3/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/z8Gt/8/Brf8aEyX/GhMl/zc3N/83Nzf/GhMl/xoT
+Jf+ekZD/npGQ/56RkP+ekZD/z8Gt/8/Brf83Nzf/Nzc3/8/Brf/Pwa3/GhMl/xoTJf+ekZD/npGQ
+/8/Brf/Pwa3/GhMl/xoTJQD///8A/////xoTJf8aEyX+npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/
+Nzc3/zc3N/8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP/Pwa3/z8Gt/zc3N/83Nzf/z8Gt/8/Brf8a
+EyX/GhMl/xoTJf8aEyX+npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ/8/B
+rf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/Nzc3
+/zc3N//Pwa3/z8Gt/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ/8/BrfrPwa3/GhMl/xoTJf8aEyX/
+GhMl/56RkP+ekZD/z8Gt/8/Brf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/P
+wa3/GhMl/xoTJf83Nzf/Nzc3/8/Brf/Pwa3/GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/z8Gt+s/B
+rf8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl
+/56RkP+ekZD/npGQ/56RkP/Pwa3/z8Gt/zc3N/83Nzf/z8Gt/8/Brf8aEyX/GhMl/56RkP+ekZD/
+z8Gt+s/Brf8aEyX/GhMlAP///wD/////GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJf83
+Nzf/Nzc3/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/8/Brf/Pwa3/Nzc3/zc3N//Pwa3/z8Gt/xoT
+Jf8aEyX/GhMl/xoTJf+ekZD/npGQ/8/BrfrPwa3/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/z8Gt
+/8/Brf8aEyX/GhMl/zc3N/83Nzf/GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/z8Gt/8/Brf83Nzf/
+Nzc3/8/Brf/Pwa3/GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJQD///8A/////xoTJf8a
+EyX/RVqJ/0Vaif8aEyX/GhMl/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/56RkP+ekZD/npGQ/56R
+kP/Pwa3/z8Gt/zc3N/83Nzf/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+AP///wD/////GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/
+GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf8a
+EyX/GhMlAP///wD///8A////AP////8aEyX/GhMl/56RkP+ekZD/z8Gt/8/Brf8aEyX/GhMl/zc3
+N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/8/Brf/Pwa3/GhMl
+/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJQD///8A/////xoTJf8aEyX/npGQ/56RkP/Pwa3/
+z8Gt/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP/Pwa3/z8Gt/zc3N/83
+Nzf/z8Gt/8/Brf8aEyX/GhMl/56RkP+ekZD/z8Gt+s/Brf8aEyX/GhMlAP///wD/////GhMl/xoT
+Jf9FWon/RVqJ/xoTJf8aEyX/GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ
+/8/Brf/Pwa3/Nzc3/zc3N/8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA
+////AP////8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8a
+EyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl/xoT
+Jf8aEyUA////AP///wD///8A/////xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyX/Nzc3
+/zc3N/83Nzf/Nzc3/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/zc3N/83Nzf/z8Gt/8/Brf8aEyX/
+GhMl/56RkP+ekZD/z8Gt+s/Brf8aEyX/GhMlAP///wD/////GhMl/xoTJf9FWon/RVqJ/xoTJf8a
+EyX/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/Nzc3/zc3
+N/8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP////8aEyX/GhMl
+/xoTJf8aEyX/GhMl/xoTJf9FWon/RVqJ/0Vaif9FWon/TXC//01wv/8aEyX/GhMl/8/Brf/Pwa3/
+GhMl/xoTJf9NcL//TXC//xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD/
+//8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/0Vaif9FWon/RVqJ/0Vaif9NcL//TXC//xoT
+Jf8aEyX/z8Gt/8/Brf8aEyX/GhMl/01wv/9NcL//GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////
+AP///wD///8A////AP///wD/////GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/GhMl/xoTJf9FWon/
+RVqJ/01wv/9NcL//GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/TXC//01wv/8aEyX/GhMl/0Vaif9F
+Won/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP////8aEyX/GhMl/0Vaif9FWon/GhMl/xoT
+Jf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3
+/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A/////xoTJf8aEyX/
+GhMl/xoTJf8aEyX/GhMl/0Vaif9FWon/RVqJ/0Vaif9NcL//TXC//xoTJf8aEyX/z8Gt/8/Brf8a
+EyX/GhMl/01wv/9NcL//GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP//
+/wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/RVqJ/0Vaif9FWon/RVqJ/01wv/9NcL//GhMl
+/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/TXC//01wv/8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A
+////AP///wD///8A////AP////8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf8aEyX/GhMl/0Vaif9F
+Won/TXC//01wv/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf9NcL//TXC//xoTJf8aEyX/RVqJ/0Va
+if8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/zc3N/83Nzf/TXC//01wv/9NcL//TXC//xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/01wv/9NcL//
+GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A/////xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/xoT
+Jf8aEyX/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD/////GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/
+GhMl/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3
+N/83Nzf/Nzc3/xoTJf8aEyX/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyUA////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/
+Nzc3/zc3N/9NcL//TXC//01wv/9NcL//GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/TXC//01wv/8a
+EyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD/////GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl
+/xoTJf83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8a
+EyX/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3
+/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/xoTJf8aEyX/
+GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3N/83
+Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3
+N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl
+/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf83Nzf/
+Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoT
+Jf9NcL//TXC//xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////
+AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/
+Nzc3/zc3N/8aEyX/GhMl/01wv/9NcL//GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJQD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf83Nzf/Nzc3/zc3
+N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3
+/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/
+GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/zc3N/83
+Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A/////xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl
+/01wv/9NcL//GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD/////GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83
+Nzf/Nzc3/xoTJf8aEyX/TXC//01wv/8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3
+/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/Nzc3/zc3N/83Nzf/
+Nzc3/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8a
+EyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/0Vaif9FWon/GhMl/xoT
+Jf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD/////GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/
+RVqJ/0Vaif8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3
+N/83Nzf/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////
+AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3N/83Nzf/
+Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf83Nzf/Nzc3/zc3N/83
+Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoT
+Jf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl
+/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf9F
+Won/RVqJ/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3
+/zc3N/8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJQD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/
+GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoT
+Jf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8a
+EyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A/////xoTJf8aEyX3npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/8/B
+rfHQwq7/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD/////GhMl/xoTJf6ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/
+npGQ/56RkP+ekZD/z8Gt9NHEsf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/GhMl/xoT
+Jf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////
+GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD/////GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/z8Gt
+/8/Brf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP////8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+e
+kZD/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8a
+EyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP////8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf+ekZD/
+npGQ/8/BrfHQwq7/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoT
+Jf8aEyX/GhMl/56RkP+ekZD/z8Gt9NHEsf8aEyX/GhMlAP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf6ekZD/npGQ/56RkP+ekZD/
+npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/z8Gt9NHEsf8aEyX/GhMlAP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/p6R
+kP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP/Pwa300cSx/xoTJf8aEyUA////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/56RkP+e
+kZD/z8Gt/8/Brf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+e
+kZD/npGQ/56RkP+ekZD/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/npGQ
+/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoTJQD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8a
+EyXcz8Gu/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/npGQ/56R
+kP+ekZD/npGQ/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD/////GhMl/xoTJfHQwq7/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/
+GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoT
+Jf8aEyX/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/z8Gt9NHEsf8aEyX/GhMlAP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/
+GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP/Pwa300cSx/xoTJf8a
+EyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoT
+Jf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf+ekZD/npGQ
+/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP////8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8a
+EyX/GhMl/56RkP+ekZD/npGQ/56RkP8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP/Pwa3/z8Gt/xoTJf8aEyUA////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/xoTJf8a
+EyX/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ/8/Brf/Pwa3/GhMl/xoT
+JQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl
+/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/
+npGQ/56RkP8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A/////xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoT
+Jf8aEyX/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD/////GhMl/xoTJfTRxLH/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/
+GhMl/8/Brf/Pwa3/GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl9NHEsf/Pwa3/GhMl/xoT
+Jf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/
+z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf+e
+kZD/npGQ/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD/////GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl
+/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP////8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8a
+EyX/z8Gt/8/Brf8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP8aEyX/GhMlAP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl
+/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyUA
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf/P
+wa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/56R
+kP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP////8aEyX/GhMl/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/
+z8Gt/8/Brf/Pwa3/npGQ/56RkP8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A/////xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoT
+Jf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyUA////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/
+z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJQD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl3M/B
+rv/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/npGQ
+/56RkP8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+/////xoTJf8aEyXx0MKu/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/P
+wa3/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD/////GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl
+/8/Brf/Pwa3/GhMl/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf/P
+wa3/z8Gt/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/8/Brf/Pwa3/npGQ/56RkP8aEyX/GhMlAP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl
+/xoTJf+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8aEyX/
+GhMl/xoTJf8aEyUA////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJQD///8A////AP///wD/
+//8A////AP////8aEyX/GhMl/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/npGQ/56R
+kP+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP////8aEyX/GhMl/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/
+z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/npGQ/56RkP8aEyX/GhMlAP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/z8Gt/8/Brf/Pwa3/z8Gt/8/B
+rf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyUA////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/
+GhMl/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/xoTJf8a
+EyX/GhMl/xoTJQD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP//
+/wD///8A/////xoTJf8aEyX/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ
+/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A/////xoTJf8aEyX/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/P
+wa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyUA////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJfTRxLH/z8Gt/8/Brf/Pwa3/z8Gt
+/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/8/Brf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJQD///8A
+////AP///wD/////GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A/////xoTJf8a
+EyX/GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/Nzc3/zc3
+N/8aEyX/GhMlAP///wD///8A////AP////8aEyX/GhMl/56RkP6ekZD/GhMl/xoTJQD///8A////
+/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/
+GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/GhMl/xoTJQD///8A/////xoTJf8aEyX/GhMl/xoTJf8a
+EyX/GhMlAP///wD/////GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/56R
+kP+ekZD/npGQ/56RkP+ekZD/npGQ/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMlAP///wD/////GhMl
+/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A/////xoTJf8aEyX/npGQ/56RkP8aEyX/
+GhMl/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMlAP///wD/
+//8A////AP////8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD/////GhMl/xoT
+Jf8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf83Nzf/Nzc3
+/xoTJf8aEyUA////AP///wD///8A/////xoTJf8aEyX/npGQ/56RkP8aEyX/GhMlAP///wD/////
+GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8a
+EyX/GhMl/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMlAP///wD/////GhMl/xoTJf8aEyX/GhMl/xoT
+Jf8aEyUA////AP////8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/npGQ
+/56RkP+ekZD/npGQ/56RkP+ekZD/Nzc3/zc3N/8aEyX/GhMl/xoTJf8aEyUA////AP////8aEyX/
+GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD/////GhMl/xoTJf+ekZD/npGQ/xoTJf8a
+EyX/GhMl/xoTJf+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyUA////AP//
+/wD///8A/////xoTJf8aEyX/npGQ956RkP8aEyX/GhMlAP///wD/////GhMl/xoTJf8aEyX/GhMl
+/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/
+GhMl/xoTJf8aEyX/GhMlAP///wD/////GhMl/xoTJf/Pwa3/z8Gt/56RkP6ekZD/GhMl/xoTJf8a
+EyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/zc3
+N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/56RkP6ekZD/GhMl/xoTJf8aEyX/GhMl/56RkP+ekZD/npGQ
+/p6RkP8aEyX/GhMl/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/56RkP+ekZD/npGQ/56RkP+ekZD/
+npGQ/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl/8/Brf/Pwa3/npGQ/p6RkP8aEyX/GhMl/xoTJf8a
+EyX/npGQ/p6RkP8aEyX/GhMlAP///wD/////GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyX/npGQ/56R
+kP+ekZD/npGQ/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMl
+AP///wD/////GhMl/xoTJf+ekZD/npGQ/xoTJf8aEyUA////AP////8aEyX/GhMl/xoTJf8aEyX/
+Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8a
+EyX/GhMl/xoTJf8aEyUA////AP////8aEyX/GhMl4NDCr//Pwa3/npGQ/56RkP8aEyX/GhMl/xoT
+Jf8aEyX/z8Gt/8/Brf8aEyX/GhMl/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/zc3N/83Nzf/Nzc3
+/zc3N/8aEyX/GhMl/8/Brf/Pwa3/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/npGQ/56RkP+ekZD/
+npGQ/xoTJf8aEyX/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/npGQ/56RkP+ekZD/npGQ/56RkP+e
+kZD/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyX/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyX/GhMl/xoT
+Jf+ekZD/npGQ/xoTJf8aEyUA////AP////8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf+ekZD/npGQ
+/56RkP+ekZD/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/xoTJf8aEyUA
+////AP////8aEyX/GhMl/8/Brf/Pwa3/npGQ956RkP8aEyX/GhMl/xoTJf8aEyX/z8Gt/8/Brf83
+Nzf/Nzc3/8/Brf/Pwa3/npGQ/56RkP+ekZD/npGQ/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/8/B
+rf/Pwa3/npGQ/p6RkP8aEyX/GhMlAP///wD/////GhMl/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl
+/xoTJf/Pwa3/z8Gt/zc3N/83Nzf/z8Gt/8/Brf+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf83Nzf/
+Nzc3/xoTJf8aEyX/z8Gt/8/Brf+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJf/Pwa3/z8Gt/8/Brf/P
+wa3/npGQ/56RkP8aEyX/GhMl/8/Brf/Pwa3/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoT
+Jf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl
+/8/Brf/Pwa3/npGQ/p6RkP8aEyX/GhMl/xoTJf8aEyX/z8Gt/8/Brf83Nzf/Nzc3/xoTJf8aEyX/
+z8Gt/8/Brf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/npGQ/p6RkP8a
+EyX/GhMl/xoTJf8aEyXg0MKv/8/Brf+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJf/Pwa3/z8Gt/zc3
+N/83Nzf/z8Gt/8/Brf+ekZD/npGQ/56RkP+ekZD/GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/z8Gt
+/8/Brf+ekZD/npGQ/xoTJf8aEyUA////AP////8aEyX/GhMl4NDCr//Pwa3/npGQ/56RkP8aEyX/
+GhMl/8/Brf/Pwa3/Nzc3/zc3N//Pwa3/z8Gt/56RkP+ekZD/npGQ/56RkP8aEyX/GhMl/zc3N/83
+Nzf/GhMl/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl/xoTJf8aEyX/GhMl4NDCr//Pwa3/z8Gt/8/B
+rf+ekZD/npGQ/xoTJf8aEyX/z8Gt/8/Brf83Nzf/Nzc3/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl
+/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/npGQ/56RkP8aEyX/GhMl/xoTJf8aEyXg
+0MKv/8/Brf+ekZD/npGQ/xoTJf8aEyX/GhMl/xoTJf/Pwa3/z8Gt/zc3N/83Nzf/GhMl/xoTJf/P
+wa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/z8Gt/8/Brf+ekZD/npGQ/xoT
+Jf8aEyUA////AP////8aEyX/GhMl/8/Brf/Pwa3/npGQ/56RkP8aEyX/GhMl/8/Brf/Pwa3/Nzc3
+/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf/Pwa3/
+z8Gt/56RkP+ekZD/GhMl/xoTJQD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl/0Vaif9F
+Won/GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3
+N/8aEyX/GhMl/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMlAP///wD/////GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl/zc3N/83Nzf/z8Gt/8/Brf+ekZD/npGQ/56RkP+ekZD/
+GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyUA////AP////8a
+EyX/GhMl/8/Brf/Pwa3/npGQ/56RkP8aEyX/GhMl/8/Brf/Pwa3/Nzc3/zc3N//Pwa3/z8Gt/56R
+kP+ekZD/npGQ/56RkP8aEyX/GhMl/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/56RkP+ekZD/GhMl
+/xoTJQD///8A/////xoTJf8aEyXg0MKv/8/Brf+ekZD/npGQ/xoTJf8aEyX/z8Gt/8/Brf83Nzf/
+Nzc3/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/8/Brf/P
+wa3/npGQ/56RkP8aEyX/GhMlAP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyX/RVqJ/0Va
+if8aEyX/GhMl/zc3N/83Nzf/GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3
+/xoTJf8aEyX/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyUA////AP////8aEyX/GhMl/xoTJf8aEyX/
+GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/Nzc3/zc3N//Pwa3/z8Gt/56RkP+ekZD/npGQ/56RkP8a
+EyX/GhMl/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJQD///8A/////xoT
+Jf8aEyXg0MKv/8/Brf+ekZD/npGQ/xoTJf8aEyX/z8Gt/8/Brf83Nzf/Nzc3/8/Brf/Pwa3/npGQ
+/56RkP+ekZD/npGQ/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/npGQ/56RkP8aEyX/
+GhMlAP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl/01wv/9N
+cL//GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/TXC//01wv/9FWon/RVqJ/xoTJf8aEyX/GhMl/xoT
+Jf9FWon/RVqJ/xoTJf8aEyUA////AP///wD///8A////AP///wD/////GhMl/xoTJf8aEyX/GhMl
+/xoTJf8aEyX/TXC//01wv/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf9NcL//TXC//0Vaif9FWon/
+RVqJ/0Vaif8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJQD///8A////AP///wD///8A////AP////8a
+EyX/GhMl/xoTJf8aEyX/GhMl/xoTJf9NcL//TXC//xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/01w
+v/9NcL//RVqJ/0Vaif9FWon/RVqJ/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////
+AP////8aEyX/GhMl/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl/zc3N/83Nzf/GhMl/xoTJf/Pwa3/
+z8Gt/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/GhMl/xoTJf9FWon/RVqJ/xoTJf8a
+EyUA////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/TXC//01w
+v/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf9NcL//TXC//0Vaif9FWon/GhMl/xoTJf8aEyX/GhMl
+/0Vaif9FWon/GhMl/xoTJQD///8A////AP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyX/
+GhMl/xoTJf9NcL//TXC//xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/01wv/9NcL//RVqJ/0Vaif9F
+Won/RVqJ/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A/////xoT
+Jf8aEyX/GhMl/xoTJf8aEyX/GhMl/01wv/9NcL//GhMl/xoTJf/Pwa3/z8Gt/xoTJf8aEyX/TXC/
+/01wv/9FWon/RVqJ/0Vaif9FWon/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA////AP///wD///8A
+/////xoTJf8aEyX/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/8/Brf/P
+wa3/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMl/0Vaif9FWon/GhMl/xoT
+JQD///8A////AP///wD///8A////AP////8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf83Nzf/Nzc3
+/zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/
+GhMl/xoTJf8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8a
+EyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3
+N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3N/8aEyX/GhMl/8/Brf/Pwa3/GhMl/xoTJf83Nzf/
+Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP////8aEyX/GhMl/xoTJf8aEyX/GhMl/xoTJf9NcL//TXC//xoTJf8aEyX/z8Gt/8/B
+rf8aEyX/GhMl/01wv/9NcL//TXC//01wv/83Nzf/Nzc3/xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl
+AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/zc3N/83Nzf/
+Nzc3/zc3N/8aEyX/GhMl/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf8a
+EyX/GhMl/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoT
+Jf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3
+/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD/////GhMl/xoTJf83Nzf/Nzc3/xoTJf8aEyX/z8Gt/8/Brf8aEyX/GhMl/zc3N/83
+Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A/////xoTJf8aEyX/GhMl/xoTJf8aEyX/GhMl/01wv/9NcL//GhMl/xoTJf/Pwa3/z8Gt
+/xoTJf8aEyX/TXC//01wv/9NcL//TXC//zc3N/83Nzf/GhMl/xoTJf8aEyX/GhMl/xoTJf8aEyUA
+////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8a
+EyX/GhMl/01wv/9NcL//GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoT
+Jf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/Nzc3
+/zc3N/83Nzf/Nzc3/xoTJf8aEyX/TXC//01wv/8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/
+Nzc3/zc3N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+////GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3
+N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/
+Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoT
+Jf8aEyX/TXC//01wv/8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl
+/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf83Nzf/
+Nzc3/zc3N/83Nzf/GhMl/xoTJf9NcL//TXC//xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83
+Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+//8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3
+/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A
+////AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf83
+Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJQD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD/////GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl
+/xoTJf9FWon/RVqJ/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/
+GhMlAP///wD///8A////AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/zc3N/83
+Nzf/Nzc3/zc3N/8aEyX/GhMl/0Vaif9FWon/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3
+N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+/xoTJf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl/zc3N/83Nzf/
+Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD/////GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf9FWon/RVqJ/xoT
+Jf8aEyX/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/
+GhMl/0Vaif9FWon/GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8a
+EyUA////AP///wD///8A////AP///wD///8A////AP///wD///8A/////xoTJf8aEyX/Nzc3/zc3
+N/83Nzf/Nzc3/xoTJf8aEyX/RVqJ/0Vaif8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3
+/zc3N/83Nzf/GhMl/xoTJQD///8A////AP///wD///8A////AP///wD///8A////AP///wD/////
+GhMl/xoTJf83Nzf/Nzc3/zc3N/83Nzf/GhMl/xoTJf9FWon/RVqJ/xoTJf8aEyX/Nzc3/zc3N/83
+Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMlAP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP////8aEyX/GhMl/zc3N/83Nzf/Nzc3/zc3N/8aEyX/GhMl/0Vaif9FWon/GhMl
+/xoTJf83Nzf/Nzc3/zc3N/83Nzf/Nzc3/zc3N/83Nzf/Nzc3/xoTJf8aEyUA////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8=</data>
+              <bankdata>
+                <byte-array reference="../../data"/></bankdata>
+            </dataBuffer>
+            <minX>0</minX>
+            <minY>0</minY>
+            <width>128</width>
+            <height>64</height>
+            <sampleModelTranslateX>0</sampleModelTranslateX>
+            <sampleModelTranslateY>0</sampleModelTranslateY>
+            <numBands>4</numBands>
+            <numDataElements>4</numDataElements>
+            <theTrackable reference="../dataBuffer/theTrackable"/>
+            <bandOffset>3</bandOffset>
+            <dataOffsets>
+              <int>3</int>
+              <int>2</int>
+              <int>1</int>
+              <int>0</int>
+            </dataOffsets>
+            <scanlineStride>512</scanlineStride>
+            <pixelStride>4</pixelStride>
+            <data reference="../dataBuffer/data"/>
+            <type>1</type>
+            <maxX defined-in="sun.awt.image.ByteComponentRaster">128</maxX>
+            <maxY defined-in="sun.awt.image.ByteComponentRaster">64</maxY>
+            <inOrder>false</inOrder>
+            <dbOffset>0</dbOffset>
+            <dbOffsetPacked>0</dbOffsetPacked>
+            <packed>false</packed>
+            <maxX>128</maxX>
+            <maxY>64</maxY>
+          </raster>
+        </spriteSheet>
+        <width>32</width>
+        <height>32</height>
+        <rows>4</rows>
+        <columns>2</columns>
+        <posX>480</posX>
+        <posY>128</posY>
+        <sprites>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <surfaceManager class="sun.awt.image.BufImgSurfaceManager">
+              <bImg reference="../.."/>
+              <sdDefault class="sun.awt.image.BufImgSurfaceData">
+                <pData>432331088</pData>
+                <valid>true</valid>
+                <surfaceLost>false</surfaceLost>
+                <surfaceType reference="../../../../../../../model.Player/sprite/sprites/java.awt.image.BufferedImage/surfaceManager/sdDefault/surfaceType"/>
+                <colorModel class="java.awt.image.ComponentColorModel" reference="../../../../../../../model.Player/sprite/spriteSheet/colorModel"/>
+                <disposerReferent/>
+                <stateDelegate reference="../../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+                <haveLCDLoop>0</haveLCDLoop>
+                <havePgramXORLoop>0</havePgramXORLoop>
+                <havePgramSolidLoop>0</havePgramSolidLoop>
+                <bufImg reference="../../.."/>
+                <solidloops reference="../../../../../../../model.Player/sprite/sprites/java.awt.image.BufferedImage/surfaceManager/sdDefault/solidloops"/>
+              </sdDefault>
+            </surfaceManager>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../../../model.Player/sprite/spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>0</sampleModelTranslateX>
+              <sampleModelTranslateY>0</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>3</bandOffset>
+              <dataOffsets>
+                <int>3</int>
+                <int>2</int>
+                <int>1</int>
+                <int>0</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>0</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../../../model.Player/sprite/spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>0</sampleModelTranslateX>
+              <sampleModelTranslateY>-32</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>16387</bandOffset>
+              <dataOffsets>
+                <int>16387</int>
+                <int>16386</int>
+                <int>16385</int>
+                <int>16384</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>16384</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../../../model.Player/sprite/spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>-32</sampleModelTranslateX>
+              <sampleModelTranslateY>0</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>131</bandOffset>
+              <dataOffsets>
+                <int>131</int>
+                <int>130</int>
+                <int>129</int>
+                <int>128</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>128</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../../../model.Player/sprite/spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>-32</sampleModelTranslateX>
+              <sampleModelTranslateY>-32</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>16515</bandOffset>
+              <dataOffsets>
+                <int>16515</int>
+                <int>16514</int>
+                <int>16513</int>
+                <int>16512</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>16512</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../../../model.Player/sprite/spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>-64</sampleModelTranslateX>
+              <sampleModelTranslateY>0</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>259</bandOffset>
+              <dataOffsets>
+                <int>259</int>
+                <int>258</int>
+                <int>257</int>
+                <int>256</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>256</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../../../model.Player/sprite/spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>-64</sampleModelTranslateX>
+              <sampleModelTranslateY>-32</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>16643</bandOffset>
+              <dataOffsets>
+                <int>16643</int>
+                <int>16642</int>
+                <int>16641</int>
+                <int>16640</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>16640</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../../../model.Player/sprite/spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>-96</sampleModelTranslateX>
+              <sampleModelTranslateY>0</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>387</bandOffset>
+              <dataOffsets>
+                <int>387</int>
+                <int>386</int>
+                <int>385</int>
+                <int>384</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>384</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+          <java.awt.image.BufferedImage>
+            <accelerationPriority>0.5</accelerationPriority>
+            <imageType>6</imageType>
+            <colorModel class="java.awt.image.ComponentColorModel" reference="../../../../../model.Player/sprite/spriteSheet/colorModel"/>
+            <raster class="sun.awt.image.ByteInterleavedRaster">
+              <sampleModel class="java.awt.image.PixelInterleavedSampleModel" reference="../../../../spriteSheet/raster/sampleModel"/>
+              <dataBuffer class="java.awt.image.DataBufferByte" reference="../../../../spriteSheet/raster/dataBuffer"/>
+              <minX>0</minX>
+              <minY>0</minY>
+              <width>32</width>
+              <height>32</height>
+              <sampleModelTranslateX>-96</sampleModelTranslateX>
+              <sampleModelTranslateY>-32</sampleModelTranslateY>
+              <numBands>4</numBands>
+              <numDataElements>4</numDataElements>
+              <parent class="sun.awt.image.ByteInterleavedRaster" reference="../../../../spriteSheet/raster"/>
+              <theTrackable reference="../../../../spriteSheet/raster/dataBuffer/theTrackable"/>
+              <bandOffset>16771</bandOffset>
+              <dataOffsets>
+                <int>16771</int>
+                <int>16770</int>
+                <int>16769</int>
+                <int>16768</int>
+              </dataOffsets>
+              <scanlineStride>512</scanlineStride>
+              <pixelStride>4</pixelStride>
+              <data reference="../../../../spriteSheet/raster/dataBuffer/data"/>
+              <type>1</type>
+              <maxX defined-in="sun.awt.image.ByteComponentRaster">32</maxX>
+              <maxY defined-in="sun.awt.image.ByteComponentRaster">32</maxY>
+              <inOrder>false</inOrder>
+              <dbOffset>0</dbOffset>
+              <dbOffsetPacked>16768</dbOffsetPacked>
+              <packed>false</packed>
+              <maxX>32</maxX>
+              <maxY>32</maxY>
+            </raster>
+          </java.awt.image.BufferedImage>
+        </sprites>
+        <aparencia>0</aparencia>
+      </sprite>
+      <items/>
+      <contadorAtaque>0</contadorAtaque>
+      <contadorFlecha>0</contadorFlecha>
+      <lado>0</lado>
+      <ladoFlecha>2</ladoFlecha>
+    </model.Player>
+  </players>
+  <n__mapaspassados>0</n__mapaspassados>
+</dados>
